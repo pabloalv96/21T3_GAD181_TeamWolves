@@ -11,11 +11,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Actor
+  - Floor
+  - Wall
+  - Ground
+  - Surface
   - 
   - 
   - 
@@ -40,4 +40,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Surface
+    uniqueID: 2042783555
+    locked: 0
+  - name: Ground
+    uniqueID: 1564379811
+    locked: 0
+  - name: Floor
+    uniqueID: 568751423
+    locked: 0
+  - name: Actor
+    uniqueID: 2101541259
     locked: 0
