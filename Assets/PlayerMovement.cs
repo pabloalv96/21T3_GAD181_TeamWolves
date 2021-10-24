@@ -22,7 +22,7 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Speed", movement.sqrMagnitude);
     }
 
-    void FixedUpdate()
+   void FixedUpdate()
     {
         //movement we can use vector 2 data
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
