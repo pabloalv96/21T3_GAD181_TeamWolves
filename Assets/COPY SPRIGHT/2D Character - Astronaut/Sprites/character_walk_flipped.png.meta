@@ -1,136 +1,133 @@
 fileFormatVersion: 2
-guid: f5e389bab0373a54aafa16f44ce44f43
+guid: 2f39e1ad3a1d72c4c8dfa988489d4c4e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1294904168947488932
-    second: character_walk_flipped_0
+      213: -3710270259309515479
+    second: character_walk_Flipped_0
   - first:
-      213: 245415795684872877
-    second: character_walk_flipped_1
+      213: -7214354070798419923
+    second: character_walk_Flipped_1
   - first:
-      213: -4135743837720137186
-    second: character_walk_flipped_2
+      213: 5949832618165637765
+    second: character_walk_Flipped_2
   - first:
-      213: -6125868188277035552
-    second: character_walk_flipped_3
+      213: 6888231864179767665
+    second: character_walk_Flipped_3
   - first:
-      213: 3625919732912398750
-    second: character_walk_flipped_4
+      213: -5938430889165372167
+    second: character_walk_Flipped_4
   - first:
-      213: 6643172096572302031
-    second: character_walk_flipped_5
+      213: 8388466635528222205
+    second: character_walk_Flipped_5
   - first:
-      213: 2576443035341779348
-    second: character_walk_flipped_6
+      213: 4282570470626173872
+    second: character_walk_Flipped_6
   - first:
-      213: 1746461071462332568
-    second: character_walk_flipped_7
+      213: 7971379676808254521
+    second: character_walk_Flipped_7
   - first:
-      213: 1313695791613929833
-    second: character_walk_flipped_8
+      213: -8639682600519491564
+    second: character_walk_Flipped_8
   - first:
-      213: 3410785997847213512
-    second: character_walk_flipped_9
+      213: 772032249529587963
+    second: character_walk_Flipped_9
   - first:
-      213: -2113038289816658315
-    second: character_walk_flipped_10
+      213: -1101171283141042070
+    second: character_walk_Flipped_10
   - first:
-      213: -4567019851412776497
-    second: character_walk_flipped_11
+      213: -1375036349725089274
+    second: character_walk_Flipped_11
   - first:
-      213: -8288488885044757097
-    second: character_walk_flipped_12
+      213: -2834648081222216956
+    second: character_walk_Flipped_12
   - first:
-      213: -2031490876153861363
-    second: character_walk_flipped_13
+      213: -6277769558336976320
+    second: character_walk_Flipped_13
   - first:
-      213: 1497197053811876429
-    second: character_walk_flipped_14
+      213: 5960100763274147159
+    second: character_walk_Flipped_14
   - first:
-      213: -89175102637678368
-    second: character_walk_flipped_15
+      213: -5496585888732308176
+    second: character_walk_Flipped_15
   - first:
-      213: -1647276657022257755
-    second: character_walk_flipped_16
+      213: -4810162843753011211
+    second: character_walk_Flipped_16
   - first:
-      213: -5931546555428336164
-    second: character_walk_flipped_17
+      213: -3282796318477380647
+    second: character_walk_Flipped_17
   - first:
-      213: 1188092890273113938
-    second: character_walk_flipped_18
+      213: 8354542116335823667
+    second: character_walk_Flipped_18
   - first:
-      213: -4199219222392897764
-    second: character_walk_flipped_19
+      213: -1040511581915432171
+    second: character_walk_Flipped_19
   - first:
-      213: 1856954402655716762
-    second: character_walk_flipped_20
+      213: -4912356781013143188
+    second: character_walk_Flipped_20
   - first:
-      213: -1508235138180512723
-    second: character_walk_flipped_21
+      213: 8825446344310657055
+    second: character_walk_Flipped_21
   - first:
-      213: -6910224569423971038
-    second: character_walk_flipped_22
+      213: -8827471565091441375
+    second: character_walk_Flipped_22
   - first:
-      213: -6264171594681709581
-    second: character_walk_flipped_23
+      213: -6716187943220415778
+    second: character_walk_Flipped_23
   - first:
-      213: -7562570494827501802
-    second: character_walk_flipped_24
+      213: -8092801735401074040
+    second: character_walk_Flipped_24
   - first:
-      213: -1944347768072801599
-    second: character_walk_flipped_25
+      213: -1094874287020915079
+    second: character_walk_Flipped_25
   - first:
-      213: 235096219979267716
-    second: character_walk_flipped_26
+      213: 4598431720732471916
+    second: character_walk_Flipped_26
   - first:
-      213: -6495980586983157894
-    second: character_walk_flipped_27
+      213: 3232721366559809746
+    second: character_walk_Flipped_27
   - first:
-      213: -7332036274372644343
-    second: character_walk_flipped_28
+      213: -6589478904417412633
+    second: character_walk_Flipped_28
   - first:
-      213: -7279467424236802544
-    second: character_walk_flipped_29
+      213: 3465007619076125150
+    second: character_walk_Flipped_29
   - first:
-      213: 9044512316002696568
-    second: character_walk_flipped_30
+      213: -5746976242010182921
+    second: character_walk_Flipped_30
   - first:
-      213: 1729553829000077806
-    second: character_walk_flipped_31
+      213: -9026638643423333522
+    second: character_walk_Flipped_31
   - first:
-      213: -5404571786445605227
-    second: character_walk_flipped_32
+      213: 4175120940959059890
+    second: character_walk_Flipped_32
   - first:
-      213: 121567812570032534
-    second: character_walk_flipped_33
+      213: -8171031768896832113
+    second: character_walk_Flipped_33
   - first:
-      213: -7374387599101127751
-    second: character_walk_flipped_34
+      213: -5115240256155293159
+    second: character_walk_Flipped_34
   - first:
-      213: 6288862867672068208
-    second: character_walk_flipped_35
+      213: -8912440707538915989
+    second: character_walk_Flipped_35
   - first:
-      213: 2208706099073731430
-    second: character_walk_flipped_36
+      213: 2199786117604029939
+    second: character_walk_Flipped_36
   - first:
-      213: 5912361376186068714
-    second: character_walk_flipped_37
+      213: -8715029712222913668
+    second: character_walk_Flipped_37
   - first:
-      213: 7855081054600242978
-    second: character_walk_flipped_38
+      213: -42231547338331141
+    second: character_walk_Flipped_38
   - first:
-      213: -7729769598217487172
-    second: character_walk_flipped_39
+      213: -4399195145386298781
+    second: character_walk_Flipped_39
   - first:
-      213: 6088488564955942436
-    second: character_walk_flipped_40
+      213: -1192432643027980666
+    second: character_walk_Flipped_40
   - first:
-      213: 3837229332868582087
-    second: character_walk_flipped_41
-  - first:
-      213: -3581951813167427973
-    second: character_walk_flipped_42
+      213: -1154069002285427463
+    second: character_walk_Flipped_41
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -244,883 +241,883 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: character_walk_flipped_0
+      name: character_walk_Flipped_0
       rect:
         serializedVersion: 2
         x: 0
         y: 900
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5766bfd483970ee0800000000000000
-      internalID: -1294904168947488932
+      spriteID: 92de8256bd8728cc0800000000000000
+      internalID: -3710270259309515479
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_1
+      name: character_walk_Flipped_1
       rect:
         serializedVersion: 2
         x: 360
         y: 900
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da2111cad54e76300800000000000000
-      internalID: 245415795684872877
+      spriteID: d28ba26223771eb90800000000000000
+      internalID: -7214354070798419923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_2
+      name: character_walk_Flipped_2
       rect:
         serializedVersion: 2
         x: 720
         y: 900
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e123ea644e2ea96c0800000000000000
-      internalID: -4135743837720137186
+      spriteID: 5829bce1e3d029250800000000000000
+      internalID: 5949832618165637765
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_3
+      name: character_walk_Flipped_3
       rect:
         serializedVersion: 2
         x: 1080
         y: 900
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0eda1e8c65b8cfaa0800000000000000
-      internalID: -6125868188277035552
+      spriteID: 17936f2926ae79f50800000000000000
+      internalID: 6888231864179767665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_4
+      name: character_walk_Flipped_4
       rect:
         serializedVersion: 2
         x: 1440
         y: 900
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e91a25049cad15230800000000000000
-      internalID: 3625919732912398750
+      spriteID: 9f44718c194769da0800000000000000
+      internalID: -5938430889165372167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_5
+      name: character_walk_Flipped_5
       rect:
         serializedVersion: 2
         x: 1800
         y: 900
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc2aaf523d9413c50800000000000000
-      internalID: 6643172096572302031
+      spriteID: df530e406f1d96470800000000000000
+      internalID: 8388466635528222205
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_6
+      name: character_walk_Flipped_6
       rect:
         serializedVersion: 2
         x: 2160
         y: 900
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49173914a4d51c320800000000000000
-      internalID: 2576443035341779348
+      spriteID: 0b3204b272fbe6b30800000000000000
+      internalID: 4282570470626173872
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_7
+      name: character_walk_Flipped_7
       rect:
         serializedVersion: 2
         x: 2520
         y: 900
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8987f82671dac3810800000000000000
-      internalID: 1746461071462332568
+      spriteID: 9349ce5f49700ae60800000000000000
+      internalID: 7971379676808254521
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_8
+      name: character_walk_Flipped_8
       rect:
         serializedVersion: 2
         x: 2880
         y: 900
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 969e21abc5f2b3210800000000000000
-      internalID: 1313695791613929833
+      spriteID: 410a9e7237ea91880800000000000000
+      internalID: -8639682600519491564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_9
+      name: character_walk_Flipped_9
       rect:
         serializedVersion: 2
         x: 3240
         y: 900
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c53f8e3bcb855f20800000000000000
-      internalID: 3410785997847213512
+      spriteID: bf85b549d3fc6ba00800000000000000
+      internalID: 772032249529587963
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_10
+      name: character_walk_Flipped_10
       rect:
         serializedVersion: 2
         x: 3600
         y: 900
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57eddaaeedafca2e0800000000000000
-      internalID: -2113038289816658315
+      spriteID: a60648f5d8ad7b0f0800000000000000
+      internalID: -1101171283141042070
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_11
+      name: character_walk_Flipped_11
       rect:
         serializedVersion: 2
         x: 0
         y: 600
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc9526a64afae90c0800000000000000
-      internalID: -4567019851412776497
+      spriteID: 602e265a9b3eaece0800000000000000
+      internalID: -1375036349725089274
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_12
+      name: character_walk_Flipped_12
       rect:
         serializedVersion: 2
         x: 360
         y: 600
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79d322af54f59fc80800000000000000
-      internalID: -8288488885044757097
+      spriteID: 403d187b69e49a8d0800000000000000
+      internalID: -2834648081222216956
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_13
+      name: character_walk_Flipped_13
       rect:
         serializedVersion: 2
         x: 720
         y: 600
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0be66abfc1bec3e0800000000000000
-      internalID: -2031490876153861363
+      spriteID: 04a409509d1e0e8a0800000000000000
+      internalID: -6277769558336976320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_14
+      name: character_walk_Flipped_14
       rect:
         serializedVersion: 2
         x: 1080
         y: 600
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d42e737b9cc17c410800000000000000
-      internalID: 1497197053811876429
+      spriteID: 7557d74f01886b250800000000000000
+      internalID: 5960100763274147159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_15
+      name: character_walk_Flipped_15
       rect:
         serializedVersion: 2
         x: 1440
         y: 600
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e0e87477bf23cef0800000000000000
-      internalID: -89175102637678368
+      spriteID: 03d9fa0a14438b3b0800000000000000
+      internalID: -5496585888732308176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_16
+      name: character_walk_Flipped_16
       rect:
         serializedVersion: 2
         x: 1800
         y: 600
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a5356bab92b329e0800000000000000
-      internalID: -1647276657022257755
+      spriteID: 5f7a152016ede3db0800000000000000
+      internalID: -4810162843753011211
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_17
+      name: character_walk_Flipped_17
       rect:
         serializedVersion: 2
         x: 2160
         y: 600
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdd8003a5d9eeada0800000000000000
-      internalID: -5931546555428336164
+      spriteID: 9d3123f242a2172d0800000000000000
+      internalID: -3282796318477380647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_18
+      name: character_walk_Flipped_18
       rect:
         serializedVersion: 2
         x: 2520
         y: 600
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25765ec5034fc7010800000000000000
-      internalID: 1188092890273113938
+      spriteID: 33bac316acb41f370800000000000000
+      internalID: 8354542116335823667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_19
+      name: character_walk_Flipped_19
       rect:
         serializedVersion: 2
         x: 2880
         y: 600
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1f774b9d5069b5c0800000000000000
-      internalID: -4199219222392897764
+      spriteID: 51b3047aa3c5f81f0800000000000000
+      internalID: -1040511581915432171
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_20
+      name: character_walk_Flipped_20
       rect:
         serializedVersion: 2
         x: 3240
         y: 600
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a95446ec03a35c910800000000000000
-      internalID: 1856954402655716762
+      spriteID: c61fab1d88dc3dbb0800000000000000
+      internalID: -4912356781013143188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_21
+      name: character_walk_Flipped_21
       rect:
         serializedVersion: 2
         x: 3600
         y: 600
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d240dfef12ca11be0800000000000000
-      internalID: -1508235138180512723
+      spriteID: f1018e0e0b84a7a70800000000000000
+      internalID: 8825446344310657055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_22
+      name: character_walk_Flipped_22
       rect:
         serializedVersion: 2
         x: 0
         y: 300
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22dbe45bd53f910a0800000000000000
-      internalID: -6910224569423971038
+      spriteID: 125fcd9a1658e7580800000000000000
+      internalID: -8827471565091441375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_23
+      name: character_walk_Flipped_23
       rect:
         serializedVersion: 2
         x: 360
         y: 300
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fb87e6af113119a0800000000000000
-      internalID: -6264171594681709581
+      spriteID: ed2f59746ae4bc2a0800000000000000
+      internalID: -6716187943220415778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_24
+      name: character_walk_Flipped_24
       rect:
         serializedVersion: 2
         x: 720
         y: 300
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 617e4f2043a5c0790800000000000000
-      internalID: -7562570494827501802
+      spriteID: 88211cbf2b790bf80800000000000000
+      internalID: -8092801735401074040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_25
+      name: character_walk_Flipped_25
       rect:
         serializedVersion: 2
         x: 1080
         y: 300
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c2723ca10a4405e0800000000000000
-      internalID: -1944347768072801599
+      spriteID: 976c86803a93ec0f0800000000000000
+      internalID: -1094874287020915079
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_26
+      name: character_walk_Flipped_26
       rect:
         serializedVersion: 2
         x: 1440
         y: 300
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48eb6e734ca334300800000000000000
-      internalID: 235096219979267716
+      spriteID: c62b5265949e0df30800000000000000
+      internalID: 4598431720732471916
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_27
+      name: character_walk_Flipped_27
       rect:
         serializedVersion: 2
         x: 1800
         y: 300
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7f0905c214a9d5a0800000000000000
-      internalID: -6495980586983157894
+      spriteID: 2d0ec9784feecdc20800000000000000
+      internalID: 3232721366559809746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_28
+      name: character_walk_Flipped_28
       rect:
         serializedVersion: 2
         x: 2160
         y: 300
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9027db1fadf5f3a90800000000000000
-      internalID: -7332036274372644343
+      spriteID: 7e9154759d77d84a0800000000000000
+      internalID: -6589478904417412633
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_29
+      name: character_walk_Flipped_29
       rect:
         serializedVersion: 2
         x: 2520
         y: 300
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01e665822f22afa90800000000000000
-      internalID: -7279467424236802544
+      spriteID: ed1fd07321e261030800000000000000
+      internalID: 3465007619076125150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_30
+      name: character_walk_Flipped_30
       rect:
         serializedVersion: 2
         x: 2880
         y: 300
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87d7cf11800948d70800000000000000
-      internalID: 9044512316002696568
+      spriteID: 7faaf528e83ae30b0800000000000000
+      internalID: -5746976242010182921
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_31
+      name: character_walk_Flipped_31
       rect:
         serializedVersion: 2
         x: 3240
         y: 300
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee1677d3b0c900810800000000000000
-      internalID: 1729553829000077806
+      spriteID: e6330fe9affeab280800000000000000
+      internalID: -9026638643423333522
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_32
+      name: character_walk_Flipped_32
       rect:
         serializedVersion: 2
         x: 3600
         y: 300
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 596bfc9489a1ff4b0800000000000000
-      internalID: -5404571786445605227
+      spriteID: 2bfc824006201f930800000000000000
+      internalID: 4175120940959059890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_33
+      name: character_walk_Flipped_33
       rect:
         serializedVersion: 2
         x: 720
         y: 0
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 699ab5c0845efa100800000000000000
-      internalID: 121567812570032534
+      spriteID: f8df87ee5e9aa9e80800000000000000
+      internalID: -8171031768896832113
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_34
+      name: character_walk_Flipped_34
       rect:
         serializedVersion: 2
         x: 1080
         y: 0
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b3188fbc89e8a990800000000000000
-      internalID: -7374387599101127751
+      spriteID: 91ae517b6140309b0800000000000000
+      internalID: -5115240256155293159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_35
+      name: character_walk_Flipped_35
       rect:
         serializedVersion: 2
         x: 1440
         y: 0
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 070fcb45577864750800000000000000
-      internalID: 6288862867672068208
+      spriteID: b6d69698566a05480800000000000000
+      internalID: -8912440707538915989
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_36
+      name: character_walk_Flipped_36
       rect:
         serializedVersion: 2
         x: 1800
         y: 0
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66b4780be76e6ae10800000000000000
-      internalID: 2208706099073731430
+      spriteID: 3f5bf99a1d5378e10800000000000000
+      internalID: 2199786117604029939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_37
+      name: character_walk_Flipped_37
       rect:
         serializedVersion: 2
         x: 2160
         y: 0
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aee6f4bb85dec0250800000000000000
-      internalID: 5912361376186068714
+      spriteID: c7b7af3a6aefd0780800000000000000
+      internalID: -8715029712222913668
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_38
+      name: character_walk_Flipped_38
       rect:
         serializedVersion: 2
         x: 2520
         y: 0
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2272955e99ad20d60800000000000000
-      internalID: 7855081054600242978
+      spriteID: bfb6596a1a6f96ff0800000000000000
+      internalID: -42231547338331141
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_39
+      name: character_walk_Flipped_39
       rect:
         serializedVersion: 2
         x: 2880
         y: 0
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbcf1a621875ab490800000000000000
-      internalID: -7729769598217487172
+      spriteID: 36270adb25be2f2c0800000000000000
+      internalID: -4399195145386298781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_40
+      name: character_walk_Flipped_40
       rect:
         serializedVersion: 2
         x: 3240
         y: 0
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42e0a357718ae7450800000000000000
-      internalID: 6088488564955942436
+      spriteID: 68eacb534d0a37fe0800000000000000
+      internalID: -1192432643027980666
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: character_walk_flipped_41
+      name: character_walk_Flipped_41
       rect:
         serializedVersion: 2
         x: 3600
         y: 0
         width: 360
         height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ca475b6fb3904530800000000000000
-      internalID: 3837229332868582087
+      spriteID: 9f4dc706b5cebffe0800000000000000
+      internalID: -1154069002285427463
       vertices: []
       indices: 
       edges: []
