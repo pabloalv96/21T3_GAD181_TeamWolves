@@ -13,10 +13,10 @@ public class Timer : MonoBehaviour
     public Text timeText;
     public Slider timeSlider;
 
-    [SerializeField] bool startTimer;
-    [SerializeField] bool stopTimer;
-    [SerializeField] bool resetTimer;
-    [SerializeField] bool isAlive;
+    [SerializeField] public bool startTimer;
+    [SerializeField] public bool stopTimer;
+    [SerializeField] public bool resetTimer;
+    [SerializeField] public bool isAlive;
 
     public Movement movement;
 
@@ -26,8 +26,8 @@ public class Timer : MonoBehaviour
     private void Start()
     {
         teleportText.enabled = false;
-        startTimer = true;
         isAlive = true;
+        startTimer = true;
         stopTimer = false;
         resetTimer = false;
         timeSlider.maxValue = oxigenTime;
@@ -38,73 +38,65 @@ public class Timer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isAlive == true && startTimer == true)
+        int seconds = Mathf.FloorToInt(oxigenTime % 60);
+
+        string textTime = string.Format("{00}", seconds);
+
+
+        if (isAlive && startTimer)
         {
             //CountDown();
+            oxigenTime -= Time.deltaTime;
 
-            float time = oxigenTime - Time.time;
-
-            int seconds = Mathf.FloorToInt(time % 60);
-
-            string textTime = string.Format("{00}", seconds);
-
-            if (time <= 0)
+            if (oxigenTime <= 0)
             {
+                oxigenTime = 0;
                 startTimer = false;
                 stopTimer = true;
                 isAlive = false;
-
-                if (isAlive == false)
-                {
-                    movement.canMove = false;
-                    teleportText.enabled = true;
-                }
             }
 
             if (stopTimer == false)
             {
                 timeText.text = textTime;
-                timeSlider.value = time;
+                timeSlider.value = oxigenTime;
+            } else
+            {
+                timeSlider.value = 0;
             }
         }
 
-        if(teleportText.enabled == true && Input.GetKeyDown(KeyCode.E))
+        if (!isAlive)
         {
+            movement.canMove = false;
+            teleportText.enabled = true;
+        }
+
+
+        if (teleportText.enabled == true && Input.GetKeyDown(KeyCode.E))
+        {
+            
+            Debug.Log("You pressed E");
+            isAlive = true;
+            movement.canMove = true;
             resetTimer = true;
             teleportText.enabled = false;
-            isAlive = true;
             player.transform.position = respawnPoint.transform.position;
-            movement.canMove = true;
         }
 
-    }
-
-
-    /*void CountDown()
-    {
-        float time = oxigenTime - Time.time;
-
-        int seconds = Mathf.FloorToInt(time % 60);
-
-        string textTime = string.Format("{00}", seconds);
-
-        if (time <= 0)
+        if(resetTimer)
         {
-            stopTimer = true;
-            isAlive = false;
+            oxigenTime = 3;
 
-            if(isAlive == false)
-            {
-                movement.canMove = false;
-                teleportText.enabled = true;
-            }
-        }
-
-        if (stopTimer == false)
-        {
             timeText.text = textTime;
-            timeSlider.value = time;
+            timeSlider.value = oxigenTime;
+
+            startTimer = true;
+            stopTimer = false;
+            resetTimer = false;
+
         }
+
     }
-    */
+
 }
