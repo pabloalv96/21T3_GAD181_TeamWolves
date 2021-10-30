@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/PlayMaker/Actions/SpriteRenderer/GetSprite.cs.meta
 guid: 9ba3af765b348f547b6840766b677f6b
+=======
+guid: 8b71eff8466a69a499ca522c0ce93bc0
+>>>>>>> Feature-Game-Level:Assets/Minimap.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
