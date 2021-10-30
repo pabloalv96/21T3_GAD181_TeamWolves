@@ -15,11 +15,11 @@ C:/Users/USER/Documents/SAE GitHub/21T3_GAD181_TeamWolves
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53765
+57386
 Successfully changed project path to: C:/Users/USER/Documents/SAE GitHub/21T3_GAD181_TeamWolves
 C:/Users/USER/Documents/SAE GitHub/21T3_GAD181_TeamWolves
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 60.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 62.17 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56280
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002065 seconds.
+Registered in 0.002107 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 58.99 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 59.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.542 seconds
+- Completed reload, in  1.518 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1542ms)
-		BeginReloadAssembly (42ms)
+	ReloadAssembly (1519ms)
+		BeginReloadAssembly (43ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (354ms)
-			LoadAssemblies (40ms)
+		EndReloadAssembly (356ms)
+			LoadAssemblies (41ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (117ms)
+			SetupTypeCache (118ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (158ms)
+			SetupLoadedEditorAssemblies (159ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (59ms)
+				RefreshPlugins (60ms)
 				BeforeProcessingInitializeOnLoad (13ms)
 				ProcessInitializeOnLoadAttributes (61ms)
 				ProcessInitializeOnLoadMethodAttributes (21ms)
@@ -75,36 +75,36 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011444 seconds.
+Registered in 0.010450 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\USER\Documents\SAE GitHub\21T3_GAD181_TeamWolves\Assets\PlayMaker\Editor\PlayMakerEditor.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 57.04 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 58.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.978 seconds
+- Completed reload, in  0.999 seconds
 Domain Reload Profiling:
-	ReloadAssembly (979ms)
-		BeginReloadAssembly (113ms)
+	ReloadAssembly (999ms)
+		BeginReloadAssembly (114ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (814ms)
-			LoadAssemblies (77ms)
+		EndReloadAssembly (835ms)
+			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (250ms)
+			SetupTypeCache (264ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (340ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (345ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (57ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (193ms)
+				RefreshPlugins (59ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (195ms)
 				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
@@ -114,14 +114,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3444 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 144.5 MB.
 System memory in use after: 144.7 MB.
 
 Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 4023.
-Total: 3.129500 ms (FindLiveObjects: 0.471900 ms CreateObjectMapping: 0.220000 ms MarkObjects: 2.331000 ms  DeleteObjects: 0.105500 ms)
+Total: 3.393300 ms (FindLiveObjects: 0.320800 ms CreateObjectMapping: 0.317000 ms MarkObjects: 2.639800 ms  DeleteObjects: 0.114900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,65 +135,105 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/PlayMaker
-  artifactKey: Guid(319607e26f5ded5439c33bfddad43af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayMaker using Guid(319607e26f5ded5439c33bfddad43af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd796b2345c5ae49d2012366d030e3b9') in 0.016927 seconds 
-  Import took 0.021268 seconds .
+  path: Assets/Game Level.unity
+  artifactKey: Guid(fb00a5f082b63ff41a97218836d08c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Level.unity using Guid(fb00a5f082b63ff41a97218836d08c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddaa20cd5c3215d95e40a956570a83c9') in 0.024340 seconds 
+  Import took 0.029211 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 208.640292 seconds.
-  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_idle.png
-  artifactKey: Guid(9c447c54c8e0416e9446cadb88c48fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_idle.png using Guid(9c447c54c8e0416e9446cadb88c48fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a236f1086a6043bfabef13ea6ef5bf') in 0.357221 seconds 
-  Import took 0.362803 seconds .
+  Time since last request: 100.485176 seconds.
+  path: Assets/Gizmos
+  artifactKey: Guid(db67ac655d8de824194f587deecafb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gizmos using Guid(db67ac655d8de824194f587deecafb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153682399782143854b4d611782f0f12') in 0.013887 seconds 
+  Import took 0.018343 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_walk.png
-  artifactKey: Guid(3d2f599474fd4b2994881f42880ea8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/character_walk.png using Guid(3d2f599474fd4b2994881f42880ea8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a130273c9a84364fc89a5d1effe3b1') in 0.198635 seconds 
-  Import took 0.203184 seconds .
+  Time since last request: 0.042895 seconds.
+  path: Assets/Gizmos/FsmTemplate Icon.png
+  artifactKey: Guid(b79a8c6a7f59ffe4caefb7ee0dbb6c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gizmos/FsmTemplate Icon.png using Guid(b79a8c6a7f59ffe4caefb7ee0dbb6c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c348efba1071180aa1cad758b1c30d33') in 0.072138 seconds 
+  Import took 0.076569 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 113.064420 seconds.
-  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_0 2.asset
-  artifactKey: Guid(43332bf79622dc347993630a62fb2527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_0 2.asset using Guid(43332bf79622dc347993630a62fb2527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c807230edec088a089a32e6943103f') in 0.028294 seconds 
-  Import took 0.033027 seconds .
+  Time since last request: 0.000184 seconds.
+  path: Assets/Gizmos/PlayMakerFSM Icon.png
+  artifactKey: Guid(4889c347147d7844a93bbdd28089ce27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gizmos/PlayMakerFSM Icon.png using Guid(4889c347147d7844a93bbdd28089ce27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8de9a7f1cf1ae7b4a9492b516b13b0') in 0.021511 seconds 
+  Import took 0.025549 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_2 2.asset
-  artifactKey: Guid(f5b3c38c7f7753b4093811f392ee75c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_2 2.asset using Guid(f5b3c38c7f7753b4093811f392ee75c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b40f5b23b69698a0670c22b3691831c') in 0.021239 seconds 
-  Import took 0.026045 seconds .
+  Time since last request: 0.000142 seconds.
+  path: Assets/Gizmos/PlayMakerPrefs Icon.png
+  artifactKey: Guid(70b5f8288a5c3a64b9b1bc002bcf0c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gizmos/PlayMakerPrefs Icon.png using Guid(70b5f8288a5c3a64b9b1bc002bcf0c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b262d17ee0a133eb20c90bbe8295954') in 0.018402 seconds 
+  Import took 0.022491 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_3 2.asset
-  artifactKey: Guid(6bd3c50a673cb844fa1e79ca96d5a294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_3 2.asset using Guid(6bd3c50a673cb844fa1e79ca96d5a294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e14e52e77d031e508fa7fa3719d7927') in 0.034307 seconds 
-  Import took 0.038838 seconds .
+  Time since last request: 0.000170 seconds.
+  path: Assets/Gizmos/PlaymakerIcon.png
+  artifactKey: Guid(bffda5937c31b0442bb9cb53bbc2771b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gizmos/PlaymakerIcon.png using Guid(bffda5937c31b0442bb9cb53bbc2771b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec4f919afbcda7a3ae442f346701d7d') in 0.021492 seconds 
+  Import took 0.025559 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_1 2.asset
-  artifactKey: Guid(75298f4d1a5bb0745a374141023213d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_1 2.asset using Guid(75298f4d1a5bb0745a374141023213d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f9a7c44b67ac58e057c47fdae8be80') in 0.020002 seconds 
-  Import took 0.025324 seconds .
+  Time since last request: 0.000146 seconds.
+  path: Assets/Gizmos/PlayMakerControls Icon.png
+  artifactKey: Guid(4ac9185bf8ba41e4d81d2d443a326b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gizmos/PlayMakerControls Icon.png using Guid(4ac9185bf8ba41e4d81d2d443a326b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1181d9a8d90c60f24bb0fa047647d0') in 0.018795 seconds 
+  Import took 0.022939 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 47.178858 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95df672b4aaba54310d34c83eef51bb8') in 0.014102 seconds 
-  Import took 0.018544 seconds .
+  Time since last request: 0.000133 seconds.
+  path: Assets/Gizmos/PlayMakerGUI Icon.png
+  artifactKey: Guid(2c7db6fc3f6ab6b429b6a3924d3820eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gizmos/PlayMakerGUI Icon.png using Guid(2c7db6fc3f6ab6b429b6a3924d3820eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd534962531ede22bd5a6b67db8c853b') in 0.019583 seconds 
+  Import took 0.023701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Gizmos/VariableTypeDefinitionAsset Icon.png
+  artifactKey: Guid(30bf117e9e9b31c478115ce54be2ef9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gizmos/VariableTypeDefinitionAsset Icon.png using Guid(30bf117e9e9b31c478115ce54be2ef9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45511806b5371126dd975ba45e001f57') in 0.018066 seconds 
+  Import took 0.022148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Gizmos/PlayMakerGlobals Icon.png
+  artifactKey: Guid(60204a42898e09e44afa4f4ca5ed1da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gizmos/PlayMakerGlobals Icon.png using Guid(60204a42898e09e44afa4f4ca5ed1da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b3a2cd909e1f0e55c7c2aa43294053') in 0.023540 seconds 
+  Import took 0.027519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Gizmos/PlayMakerNotes Icon.png
+  artifactKey: Guid(3c6ce8269c92d4a4f99f911813c0b613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gizmos/PlayMakerNotes Icon.png using Guid(3c6ce8269c92d4a4f99f911813c0b613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f7f4e52b45b81000f74cb5274ff76b') in 0.018792 seconds 
+  Import took 0.022863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.737537 seconds.
+  path: Assets/Scenes/Opoeration Exodus Grey Box.unity
+  artifactKey: Guid(c599589e9716be041b441397b816c518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Opoeration Exodus Grey Box.unity using Guid(c599589e9716be041b441397b816c518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191c1403b4dc68961bd2496a98f04309') in 0.003327 seconds 
+  Import took 0.007685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.649722 seconds.
+  path: Assets/Scenes/Opoeration Exodus Grey Box.unity
+  artifactKey: Guid(c599589e9716be041b441397b816c518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Opoeration Exodus Grey Box.unity using Guid(c599589e9716be041b441397b816c518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b28fc8b5547bb3c5e9db1a70c598d8c') in 0.003371 seconds 
+  Import took 0.008212 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
