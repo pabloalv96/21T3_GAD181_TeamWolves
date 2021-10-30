@@ -14,7 +14,7 @@ TagManager:
   - UI
   - Actor
   - Ground
-  - 
+  - Collision
   - 
   - 
   - 
@@ -41,4 +41,22 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 62139203
+    locked: 0
+  - name: Floor
+    uniqueID: 4200559699
+    locked: 0
+  - name: Wall Interior
+    uniqueID: 2660572535
+    locked: 0
+  - name: Wall Exterior
+    uniqueID: 1207497303
+    locked: 0
+  - name: Wall Rock
+    uniqueID: 656548345
+    locked: 0
+  - name: Actor
+    uniqueID: 96602239
     locked: 0
