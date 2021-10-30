@@ -15,11 +15,19 @@ C:/Users/USER/Documents/SAE GitHub/21T3_GAD181_TeamWolves
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< Updated upstream
 57735
 Successfully changed project path to: C:/Users/USER/Documents/SAE GitHub/21T3_GAD181_TeamWolves
 C:/Users/USER/Documents/SAE GitHub/21T3_GAD181_TeamWolves
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 60.58 ms, found 3 plugins.
+=======
+57674
+Successfully changed project path to: C:/Users/USER/Documents/SAE GitHub/21T3_GAD181_TeamWolves
+C:/Users/USER/Documents/SAE GitHub/21T3_GAD181_TeamWolves
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 61.40 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -35,11 +43,16 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
+>>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< Updated upstream
 Registered in 0.002174 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -49,25 +62,50 @@ Mono: successfully reloaded assembly
 - Completed reload, in  1.515 seconds
 Domain Reload Profiling:
 	ReloadAssembly (1515ms)
+=======
+Registered in 0.002137 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 57.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.540 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1540ms)
+>>>>>>> Stashed changes
 		BeginReloadAssembly (42ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 		EndReloadAssembly (355ms)
 			LoadAssemblies (40ms)
+=======
+		EndReloadAssembly (352ms)
+			LoadAssemblies (41ms)
+>>>>>>> Stashed changes
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (117ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (23ms)
+<<<<<<< Updated upstream
 			SetupLoadedEditorAssemblies (157ms)
+=======
+			SetupLoadedEditorAssemblies (156ms)
+>>>>>>> Stashed changes
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (58ms)
+<<<<<<< Updated upstream
 				BeforeProcessingInitializeOnLoad (13ms)
 				ProcessInitializeOnLoadAttributes (61ms)
+=======
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (60ms)
+>>>>>>> Stashed changes
 				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -75,36 +113,62 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 Registered in 0.010547 seconds.
+=======
+Registered in 0.010561 seconds.
+>>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\USER\Documents\SAE GitHub\21T3_GAD181_TeamWolves\Assets\PlayMaker\Editor\PlayMakerEditor.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 57.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.977 seconds
 Domain Reload Profiling:
 	ReloadAssembly (978ms)
+=======
+Refreshing native plugins compatible for Editor in 57.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.989 seconds
+Domain Reload Profiling:
+	ReloadAssembly (990ms)
+>>>>>>> Stashed changes
 		BeginReloadAssembly (113ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (14ms)
+<<<<<<< Updated upstream
 		EndReloadAssembly (815ms)
 			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (251ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (47ms)
+=======
+		EndReloadAssembly (826ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (258ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+>>>>>>> Stashed changes
 			SetupLoadedEditorAssemblies (341ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (58ms)
 				BeforeProcessingInitializeOnLoad (70ms)
+<<<<<<< Updated upstream
 				ProcessInitializeOnLoadAttributes (193ms)
+=======
+				ProcessInitializeOnLoadAttributes (194ms)
+>>>>>>> Stashed changes
 				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
@@ -113,15 +177,24 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
+<<<<<<< Updated upstream
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
 Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+=======
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3448 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 144.5 MB.
 System memory in use after: 144.7 MB.
 
 Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 4027.
+<<<<<<< Updated upstream
 Total: 2.998900 ms (FindLiveObjects: 0.319100 ms CreateObjectMapping: 0.202100 ms MarkObjects: 2.369100 ms  DeleteObjects: 0.104900 ms)
+=======
+Total: 3.050900 ms (FindLiveObjects: 0.336900 ms CreateObjectMapping: 0.180800 ms MarkObjects: 2.422400 ms  DeleteObjects: 0.109800 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,6 +208,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   path: Assets/Animations
   artifactKey: Guid(7a7948558ff8a124eb795549571cc886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Animations using Guid(7a7948558ff8a124eb795549571cc886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5ac82b944c956c917089ea89cc746d') in 0.017500 seconds 
@@ -311,6 +385,44 @@ System memory in use after: 142.9 MB.
 
 Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4036.
 Total: 2.810000 ms (FindLiveObjects: 0.349800 ms CreateObjectMapping: 0.175800 ms MarkObjects: 2.263300 ms  DeleteObjects: 0.020200 ms)
+=======
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_6 1.asset
+  artifactKey: Guid(dc75e76634381b3419f628d7da422f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_6 1.asset using Guid(dc75e76634381b3419f628d7da422f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef836c15384d9350827bcd30b12d56c') in 0.073175 seconds 
+  Import took 0.077805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_15 2.asset
+  artifactKey: Guid(02d76364a5279cb4bbc9d535f7a65090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_15 2.asset using Guid(02d76364a5279cb4bbc9d535f7a65090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1250e5bc1ed66b1bc256df2dfaaa29e9') in 0.020494 seconds 
+  Import took 0.025360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_17 1.asset
+  artifactKey: Guid(0081f93f37cf7ca4a9e8dbe76e05f59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_17 1.asset using Guid(0081f93f37cf7ca4a9e8dbe76e05f59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45c5d13fbae890a56db4e5ca84fda74') in 0.012606 seconds 
+  Import took 0.017517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_2 1.asset
+  artifactKey: Guid(68f1263ac3b4143448b07292eead6dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_2 1.asset using Guid(68f1263ac3b4143448b07292eead6dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4065dcffe2f9428a816f10024939cc5e') in 0.018249 seconds 
+  Import took 0.023228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_5 2.asset
+  artifactKey: Guid(051a04a57ce72c541a4b54bedefea1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_5 2.asset using Guid(051a04a57ce72c541a4b54bedefea1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c35590f34868a7be93ec0973e49e0a9') in 0.018722 seconds 
+  Import took 0.023177 seconds .
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -324,6 +436,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 255.034627 seconds.
   path: Assets/PlayerMovement.cs
   artifactKey: Guid(074852a8190e52546957b899d72738bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -451,6 +564,45 @@ System memory in use after: 143.0 MB.
 
 Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4042.
 Total: 2.889500 ms (FindLiveObjects: 0.320000 ms CreateObjectMapping: 0.164700 ms MarkObjects: 2.384300 ms  DeleteObjects: 0.019500 ms)
+=======
+  Time since last request: 0.000164 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_0 1.asset
+  artifactKey: Guid(e54d41696c0ec33469bcfdad5e09dae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_0 1.asset using Guid(e54d41696c0ec33469bcfdad5e09dae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '751117e11787ccbebadaecb60008aa4c') in 0.018093 seconds 
+  Import took 0.022195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/COPY SPRIGHT
+  artifactKey: Guid(fc01236926be2264c8bbd95ba3eab91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT using Guid(fc01236926be2264c8bbd95ba3eab91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a3b3dec743c7d15dbfa9d59c3f4e11') in 0.014167 seconds 
+  Import took 0.018229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_2 2.asset
+  artifactKey: Guid(f5b3c38c7f7753b4093811f392ee75c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_2 2.asset using Guid(f5b3c38c7f7753b4093811f392ee75c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffca08a7fbff3ec15f1a5470a67876dc') in 0.018410 seconds 
+  Import took 0.022765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_5.asset
+  artifactKey: Guid(7ce38b5a7d1b1354ba9f3bd1425bd9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_5.asset using Guid(7ce38b5a7d1b1354ba9f3bd1425bd9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bceb68b52c21010afe1b4d79a9ca492b') in 0.017928 seconds 
+  Import took 0.022169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_5 1.asset
+  artifactKey: Guid(df335dab34d4fd9479483896e4811d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_5 1.asset using Guid(df335dab34d4fd9479483896e4811d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18b5a86057badd8e91afaced1467e50') in 0.018852 seconds 
+  Import took 0.023078 seconds .
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -463,6 +615,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+<<<<<<< Updated upstream
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.009693 seconds.
@@ -509,6 +662,294 @@ System memory in use after: 143.0 MB.
 
 Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4045.
 Total: 2.927900 ms (FindLiveObjects: 0.303400 ms CreateObjectMapping: 0.168700 ms MarkObjects: 2.433700 ms  DeleteObjects: 0.021200 ms)
+=======
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut
+  artifactKey: Guid(4ecfe09ea64267b4193db5c0f804b501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut using Guid(4ecfe09ea64267b4193db5c0f804b501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9505fa88a3675dbadfd07a5ae8d736d') in 0.013767 seconds 
+  Import took 0.017807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_14 1.asset
+  artifactKey: Guid(57acb63ee5187d0439c0a52bbe4849d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_14 1.asset using Guid(57acb63ee5187d0439c0a52bbe4849d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8098d84aeedcfcdcb16c17552be0e587') in 0.018667 seconds 
+  Import took 0.022991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_17.asset
+  artifactKey: Guid(0360ef52be723544d91d8e5a2312066a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_17.asset using Guid(0360ef52be723544d91d8e5a2312066a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ca2f8ba6cc0377bfbae5f8b210dd13') in 0.018097 seconds 
+  Import took 0.022429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_13.asset
+  artifactKey: Guid(387b12833d49a8241a0dbd6cea36e6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_13.asset using Guid(387b12833d49a8241a0dbd6cea36e6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af2b230dad0ffd7b7fd25ef40210d29') in 0.008690 seconds 
+  Import took 0.013864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_6.asset
+  artifactKey: Guid(190e95237dccc8b41b570b7befa00ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_6.asset using Guid(190e95237dccc8b41b570b7befa00ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533f7ddc32bf626da261508601dbe2c9') in 0.018111 seconds 
+  Import took 0.022449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_4 1.asset
+  artifactKey: Guid(5a8e592e5a620144998d8739b1b00774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_4 1.asset using Guid(5a8e592e5a620144998d8739b1b00774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc81b9b5b38b704c4461a778c26ce32') in 0.018872 seconds 
+  Import took 0.023124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_10.asset
+  artifactKey: Guid(2c48f634ff42ca147815097ae2f796dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_10.asset using Guid(2c48f634ff42ca147815097ae2f796dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1116aa42191f884f2f6b36a71eca90b6') in 0.018350 seconds 
+  Import took 0.022577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_1 2.asset
+  artifactKey: Guid(75298f4d1a5bb0745a374141023213d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_1 2.asset using Guid(75298f4d1a5bb0745a374141023213d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e0c9d3d2dfee4f39dca0275fee722c') in 0.007851 seconds 
+  Import took 0.011930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_4.asset
+  artifactKey: Guid(65533b499bfd8044180201d8f3ea9399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_4.asset using Guid(65533b499bfd8044180201d8f3ea9399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0557351504641971fb581ec7a974ca') in 0.018312 seconds 
+  Import took 0.022334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_13 2.asset
+  artifactKey: Guid(90a97eeed72f5e64c887ef0d7ed32073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_13 2.asset using Guid(90a97eeed72f5e64c887ef0d7ed32073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5520c1bbb6cf08e604d3ff06f075c945') in 0.007806 seconds 
+  Import took 0.011912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_14.asset
+  artifactKey: Guid(7d53a79896e0a6f479f2d384f01d4939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_14.asset using Guid(7d53a79896e0a6f479f2d384f01d4939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ac44a7f2394448a62fb86ade844ff1') in 0.017779 seconds 
+  Import took 0.021906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_0.asset
+  artifactKey: Guid(f1faadccb934130419f6048ae74fce3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_0.asset using Guid(f1faadccb934130419f6048ae74fce3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '827dd8d4a9376eace0223ba93df81427') in 0.018314 seconds 
+  Import took 0.022592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_6 2.asset
+  artifactKey: Guid(9dacb1a036410424fb47448b3e5ac510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_6 2.asset using Guid(9dacb1a036410424fb47448b3e5ac510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3a7d38465c452de524b992b4d4d54d') in 0.018776 seconds 
+  Import took 0.022985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_7.asset
+  artifactKey: Guid(3df8e704d382aa04ab4dfde3b2b4d552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_7.asset using Guid(3df8e704d382aa04ab4dfde3b2b4d552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dfd181f4b55b8c5143453bd71f10fb0') in 0.018424 seconds 
+  Import took 0.022608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_18 1.asset
+  artifactKey: Guid(09561b010f46c1a47b22e66a53e4f2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_18 1.asset using Guid(09561b010f46c1a47b22e66a53e4f2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b8f1920c2c0859b032fc8070b416a3') in 0.018499 seconds 
+  Import took 0.022793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_3 1.asset
+  artifactKey: Guid(b655b2a3ca9539949869ce0f41e0155c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_3 1.asset using Guid(b655b2a3ca9539949869ce0f41e0155c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5825d88ef59744578be87a5f3785ea1f') in 0.018487 seconds 
+  Import took 0.022931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_4 2.asset
+  artifactKey: Guid(10ec45244e8ff674794fe237c826bf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_4 2.asset using Guid(10ec45244e8ff674794fe237c826bf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bad0cb2f50702ff93de4b0efe435ecc') in 0.018442 seconds 
+  Import took 0.022605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_9 2.asset
+  artifactKey: Guid(302f35cb1751e354a8a3bc840b10fa8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_9 2.asset using Guid(302f35cb1751e354a8a3bc840b10fa8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2a400ab3ef79e4823c6d890537916e') in 0.018472 seconds 
+  Import took 0.022637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_10 2.asset
+  artifactKey: Guid(b939830009e7e8d439041bff93576473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_10 2.asset using Guid(b939830009e7e8d439041bff93576473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66fba00d35c90f85160553b3138a8a02') in 0.018379 seconds 
+  Import took 0.022486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_16 1.asset
+  artifactKey: Guid(19d43218800018c49bf212d315c57803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_16 1.asset using Guid(19d43218800018c49bf212d315c57803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad45cefa49d9b422a2a3278a660e5a4') in 0.018068 seconds 
+  Import took 0.022152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_1.asset
+  artifactKey: Guid(638b73ebe99b24946bc2ae9d23274a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_1.asset using Guid(638b73ebe99b24946bc2ae9d23274a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f485eaa568aa86131003b81ecca15b7b') in 0.018355 seconds 
+  Import took 0.022784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_12 2.asset
+  artifactKey: Guid(6d89835863a38e546a3a8b70a47e118f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_12 2.asset using Guid(6d89835863a38e546a3a8b70a47e118f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d5d57cfef7fab7b906727e815ef864') in 0.018120 seconds 
+  Import took 0.022314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_18 2.asset
+  artifactKey: Guid(9fa626ce05ef0a645b022c3086f5a8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_18 2.asset using Guid(9fa626ce05ef0a645b022c3086f5a8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8486b1bb68ec6f9cb7fda764d8211d3c') in 0.018505 seconds 
+  Import took 0.022698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_14 2.asset
+  artifactKey: Guid(e4398bf4774b32c4dae235ab67d72fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_14 2.asset using Guid(e4398bf4774b32c4dae235ab67d72fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09de261852cc5bc96022e871e6f17a8') in 0.019746 seconds 
+  Import took 0.024038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_16 2.asset
+  artifactKey: Guid(ee893fd1ba4ac6447be93e34f64d6221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_16 2.asset using Guid(ee893fd1ba4ac6447be93e34f64d6221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d2dac6ea9139b3ca844b64e98555a0') in 0.017964 seconds 
+  Import took 0.022056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_16.asset
+  artifactKey: Guid(fd71616e4a9986046857507113724815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_16.asset using Guid(fd71616e4a9986046857507113724815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1579faad27bf40c6d33ebbbd1e994d') in 0.018908 seconds 
+  Import took 0.022966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_3.asset
+  artifactKey: Guid(ddc5e16766dd3f24e861088bf14dfb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_3.asset using Guid(ddc5e16766dd3f24e861088bf14dfb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0fcb267caa2340b64bce948760c2ddf') in 0.018159 seconds 
+  Import took 0.022193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_11 1.asset
+  artifactKey: Guid(49c55f073d255a84fad2d92660aca2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_11 1.asset using Guid(49c55f073d255a84fad2d92660aca2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66e3323f37e69f95bb88de92260ae0b') in 0.018516 seconds 
+  Import took 0.022729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_7 1.asset
+  artifactKey: Guid(4ca56b76b6ccb4c498a9c2854351c51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_7 1.asset using Guid(4ca56b76b6ccb4c498a9c2854351c51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9870814009113540359198a4ef9dc3') in 0.018763 seconds 
+  Import took 0.022969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_8 2.asset
+  artifactKey: Guid(62261491c3806344c975c6401eb9475b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_8 2.asset using Guid(62261491c3806344c975c6401eb9475b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b9becdcbb8e21eba3ce0e13dfd67e3') in 0.018480 seconds 
+  Import took 0.022534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_10 1.asset
+  artifactKey: Guid(123549a0e7c21c744a247fe630c6ecd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_10 1.asset using Guid(123549a0e7c21c744a247fe630c6ecd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d59bf4d8fb03dbca626177cf13188c') in 0.018184 seconds 
+  Import took 0.022509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_3 2.asset
+  artifactKey: Guid(6bd3c50a673cb844fa1e79ca96d5a294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_3 2.asset using Guid(6bd3c50a673cb844fa1e79ca96d5a294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f0272d28074df91089ec44da84cbb6') in 0.018461 seconds 
+  Import took 0.023137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_17 2.asset
+  artifactKey: Guid(cd8b05d7a83f1ad45a6ee260441dcb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_17 2.asset using Guid(cd8b05d7a83f1ad45a6ee260441dcb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e631f4b338b1f7fd825c4e70dc841f') in 0.018021 seconds 
+  Import took 0.022118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_1 1.asset
+  artifactKey: Guid(459af92aa5225ed45a067e694e3b7ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_1 1.asset using Guid(459af92aa5225ed45a067e694e3b7ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d6f4e47b9640ee7b786b2fc20281ee4') in 0.008306 seconds 
+  Import took 0.012571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_11.asset
+  artifactKey: Guid(ed6b47ff5fac4504bb18f4c06fa54b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_11.asset using Guid(ed6b47ff5fac4504bb18f4c06fa54b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3f138828db87b0d5382cec9515bd18') in 0.018713 seconds 
+  Import took 0.023113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_12.asset
+  artifactKey: Guid(2662e458d012334418eb20e96c77aad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_12.asset using Guid(2662e458d012334418eb20e96c77aad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70fc7d7a08098a978d695b7e8771309b') in 0.018348 seconds 
+  Import took 0.022681 seconds .
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -521,6 +962,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+<<<<<<< Updated upstream
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.009697 seconds.
@@ -683,6 +1125,30 @@ System memory in use after: 143.0 MB.
 
 Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4054.
 Total: 3.502000 ms (FindLiveObjects: 0.313500 ms CreateObjectMapping: 0.170600 ms MarkObjects: 2.996200 ms  DeleteObjects: 0.021000 ms)
+=======
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_0 2.asset
+  artifactKey: Guid(43332bf79622dc347993630a62fb2527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_0 2.asset using Guid(43332bf79622dc347993630a62fb2527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f594a455ad5d8baa851c52e3871a2ccc') in 0.017849 seconds 
+  Import took 0.021976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_12 1.asset
+  artifactKey: Guid(a35eda14399427749ac043c937abd339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_12 1.asset using Guid(a35eda14399427749ac043c937abd339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7b9bbd12c48281be961c9e84fac439') in 0.018183 seconds 
+  Import took 0.022407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square.png
+  artifactKey: Guid(5ff47db9a17fe304893262fcc4d0a6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square.png using Guid(5ff47db9a17fe304893262fcc4d0a6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10da6bba7454f112668091767c320d3d') in 0.180967 seconds 
+  Import took 0.185747 seconds .
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -695,6 +1161,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+<<<<<<< Updated upstream
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.009590 seconds.
@@ -741,6 +1208,22 @@ System memory in use after: 143.0 MB.
 
 Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4057.
 Total: 2.824200 ms (FindLiveObjects: 0.316800 ms CreateObjectMapping: 0.183700 ms MarkObjects: 2.301600 ms  DeleteObjects: 0.021100 ms)
+=======
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_13 1.asset
+  artifactKey: Guid(fef5e48e505c91a41a852fc747809987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_13 1.asset using Guid(fef5e48e505c91a41a852fc747809987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2142c921c40b6a53ca533cee55ddbd26') in 0.019067 seconds 
+  Import took 0.023731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_8 1.asset
+  artifactKey: Guid(aa873fe8d2c4a8e4885447fec7c0c7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_8 1.asset using Guid(aa873fe8d2c4a8e4885447fec7c0c7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0211e401ed09a4134702ac9b34a34ab3') in 0.018801 seconds 
+  Import took 0.023148 seconds .
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -753,6 +1236,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+<<<<<<< Updated upstream
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.009621 seconds.
@@ -799,6 +1283,22 @@ System memory in use after: 143.1 MB.
 
 Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4060.
 Total: 2.868300 ms (FindLiveObjects: 0.339700 ms CreateObjectMapping: 0.187500 ms MarkObjects: 2.320900 ms  DeleteObjects: 0.019300 ms)
+=======
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_2.asset
+  artifactKey: Guid(c8dea606f473e914bb4d5ed884bfb87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_2.asset using Guid(c8dea606f473e914bb4d5ed884bfb87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b93a061a7fa1c44c4e3a1cc809ca64') in 0.009006 seconds 
+  Import took 0.013598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_15 1.asset
+  artifactKey: Guid(161f58962a7a45143a5391249a1e6d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_15 1.asset using Guid(161f58962a7a45143a5391249a1e6d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7696c99e75fad303aad43d5d59f42ea8') in 0.019418 seconds 
+  Import took 0.024009 seconds .
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -811,6 +1311,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+<<<<<<< Updated upstream
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.009714 seconds.
@@ -857,6 +1358,22 @@ System memory in use after: 143.1 MB.
 
 Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4063.
 Total: 2.943800 ms (FindLiveObjects: 0.347300 ms CreateObjectMapping: 0.196400 ms MarkObjects: 2.377100 ms  DeleteObjects: 0.022200 ms)
+=======
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_8.asset
+  artifactKey: Guid(a47eddbdb8d7ff548964e67efbacd02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_8.asset using Guid(a47eddbdb8d7ff548964e67efbacd02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41cc0a1d980d132bf48ea232f18d4ebe') in 0.018472 seconds 
+  Import took 0.022568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_9 1.asset
+  artifactKey: Guid(b600e07ddc1a90c42a5770e66958aca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_9 1.asset using Guid(b600e07ddc1a90c42a5770e66958aca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c8248c4e141db5bd081d7a4a3289781') in 0.018540 seconds 
+  Import took 0.022686 seconds .
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -869,6 +1386,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+<<<<<<< Updated upstream
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.010307 seconds.
@@ -1155,6 +1673,38 @@ System memory in use after: 143.1 MB.
 
 Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4078.
 Total: 3.055900 ms (FindLiveObjects: 0.317300 ms CreateObjectMapping: 0.170800 ms MarkObjects: 2.542300 ms  DeleteObjects: 0.024900 ms)
+=======
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_11 2.asset
+  artifactKey: Guid(baf2fc9638542724f8e51db9505bddcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_11 2.asset using Guid(baf2fc9638542724f8e51db9505bddcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981162a9c5d45f2574316a0eb18ce4a7') in 0.018054 seconds 
+  Import took 0.022441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_7 2.asset
+  artifactKey: Guid(dcdbdacf437c47b44ac793fda427157b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_7 2.asset using Guid(dcdbdacf437c47b44ac793fda427157b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eadc4138b8a13b18d85dee763a5e743') in 0.018054 seconds 
+  Import took 0.022134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_9.asset
+  artifactKey: Guid(6b2a3113b978e5b4c891c136316aa0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_9.asset using Guid(6b2a3113b978e5b4c891c136316aa0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aca1f4685835cff935427c5c6dcb456') in 0.018573 seconds 
+  Import took 0.022811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_15.asset
+  artifactKey: Guid(74f57cd106c4bfd4094fa3cec4097312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Astronaut/Sprites/Square_15.asset using Guid(74f57cd106c4bfd4094fa3cec4097312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f33cc297e8294c57de62564e979befe') in 0.018096 seconds 
+  Import took 0.022440 seconds .
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1167,6 +1717,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+<<<<<<< Updated upstream
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.009836 seconds.
@@ -1213,6 +1764,14 @@ System memory in use after: 143.1 MB.
 
 Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4081.
 Total: 3.394800 ms (FindLiveObjects: 0.319200 ms CreateObjectMapping: 0.193400 ms MarkObjects: 2.845300 ms  DeleteObjects: 0.035800 ms)
+=======
+Received Import Request.
+  Time since last request: 21.193393 seconds.
+  path: Assets/Scenes/Opoeration Exodus Grey Box.unity
+  artifactKey: Guid(79fd97c0bc68a49499b717a1f0ea0088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Opoeration Exodus Grey Box.unity using Guid(79fd97c0bc68a49499b717a1f0ea0088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d22526696c34900f7ef2f156536b6e') in 0.013970 seconds 
+  Import took 0.018738 seconds .
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
