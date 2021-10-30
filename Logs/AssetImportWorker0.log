@@ -16,17 +16,23 @@ C:/Users/USER/Documents/SAE GitHub/21T3_GAD181_TeamWolves
 Logs/AssetImportWorker0.log
 -srvPort
 <<<<<<< HEAD
+<<<<<<< HEAD
 53627
 Successfully changed project path to: C:/Users/USER/Documents/SAE GitHub/21T3_GAD181_TeamWolves
 C:/Users/USER/Documents/SAE GitHub/21T3_GAD181_TeamWolves
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 62.44 ms, found 3 plugins.
 =======
+=======
+>>>>>>> Feature-Game-Level
 52367
 Successfully changed project path to: C:/Users/USER/Documents/SAE GitHub/21T3_GAD181_TeamWolves
 C:/Users/USER/Documents/SAE GitHub/21T3_GAD181_TeamWolves
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 48.92 ms, found 3 plugins.
+<<<<<<< HEAD
+>>>>>>> Feature-Game-Level
+=======
 >>>>>>> Feature-Game-Level
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
@@ -44,7 +50,11 @@ Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Manage
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
 <<<<<<< HEAD
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
+>>>>>>> Feature-Game-Level
 =======
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
 >>>>>>> Feature-Game-Level
@@ -52,6 +62,7 @@ Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< HEAD
 <<<<<<< HEAD
 Registered in 0.002115 seconds.
 Native extension for WindowsStandalone target not found
@@ -64,6 +75,8 @@ Domain Reload Profiling:
 	ReloadAssembly (1515ms)
 		BeginReloadAssembly (42ms)
 =======
+=======
+>>>>>>> Feature-Game-Level
 Registered in 0.002131 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -74,12 +87,16 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1509ms)
 		BeginReloadAssembly (43ms)
+<<<<<<< HEAD
+>>>>>>> Feature-Game-Level
+=======
 >>>>>>> Feature-Game-Level
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 		EndReloadAssembly (359ms)
 			LoadAssemblies (40ms)
@@ -95,6 +112,8 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (13ms)
 				ProcessInitializeOnLoadAttributes (61ms)
 =======
+=======
+>>>>>>> Feature-Game-Level
 		EndReloadAssembly (341ms)
 			LoadAssemblies (41ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -108,6 +127,9 @@ Domain Reload Profiling:
 				RefreshPlugins (50ms)
 				BeforeProcessingInitializeOnLoad (13ms)
 				ProcessInitializeOnLoadAttributes (60ms)
+<<<<<<< HEAD
+>>>>>>> Feature-Game-Level
+=======
 >>>>>>> Feature-Game-Level
 				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (0ms)
@@ -116,6 +138,7 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 <<<<<<< HEAD
 Registered in 0.015743 seconds.
 Begin MonoManager ReloadAssembly
@@ -130,6 +153,8 @@ Domain Reload Profiling:
 	ReloadAssembly (995ms)
 		BeginReloadAssembly (113ms)
 =======
+=======
+>>>>>>> Feature-Game-Level
 Registered in 0.002943 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -141,12 +166,16 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (899ms)
 		BeginReloadAssembly (114ms)
+<<<<<<< HEAD
+>>>>>>> Feature-Game-Level
+=======
 >>>>>>> Feature-Game-Level
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (14ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 		EndReloadAssembly (831ms)
 			LoadAssemblies (81ms)
@@ -162,6 +191,8 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (70ms)
 				ProcessInitializeOnLoadAttributes (201ms)
 =======
+=======
+>>>>>>> Feature-Game-Level
 		EndReloadAssembly (734ms)
 			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -175,6 +206,9 @@ Domain Reload Profiling:
 				RefreshPlugins (47ms)
 				BeforeProcessingInitializeOnLoad (65ms)
 				ProcessInitializeOnLoadAttributes (165ms)
+<<<<<<< HEAD
+>>>>>>> Feature-Game-Level
+=======
 >>>>>>> Feature-Game-Level
 				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (6ms)
@@ -186,6 +220,7 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
 <<<<<<< HEAD
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3444 Unused Serialized files (Serialized files now loaded: 0)
@@ -195,6 +230,8 @@ System memory in use after: 144.7 MB.
 Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 4023.
 Total: 3.088900 ms (FindLiveObjects: 0.307100 ms CreateObjectMapping: 0.161600 ms MarkObjects: 2.519600 ms  DeleteObjects: 0.099700 ms)
 =======
+=======
+>>>>>>> Feature-Game-Level
 Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2240 Unused Serialized files (Serialized files now loaded: 0)
@@ -203,6 +240,9 @@ System memory in use after: 113.4 MB.
 
 Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2695.
 Total: 2.671200 ms (FindLiveObjects: 0.188700 ms CreateObjectMapping: 0.085600 ms MarkObjects: 2.291300 ms  DeleteObjects: 0.104800 ms)
+<<<<<<< HEAD
+>>>>>>> Feature-Game-Level
+=======
 >>>>>>> Feature-Game-Level
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -217,6 +257,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
 <<<<<<< HEAD
   path: Assets/Game Level.unity
   artifactKey: Guid(fb00a5f082b63ff41a97218836d08c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -647,6 +688,8 @@ Received Import Request.
 Start importing Assets/Artwork/Level/Tiles/Torch_1.asset using Guid(6dc1c9d6ec5805b4b80bee471e2104ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84fe0e39ab9c35e6dd0bece0e211cc0') in 0.007338 seconds 
   Import took 0.011878 seconds .
 =======
+=======
+>>>>>>> Feature-Game-Level
   path: Assets/COPY SPRIGHT
   artifactKey: Guid(4195e732f677c114ca15d299b8afd9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/COPY SPRIGHT using Guid(4195e732f677c114ca15d299b8afd9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb93da3086e890a1cd759e87bce42ff') in 0.016765 seconds 
@@ -707,11 +750,15 @@ Received Import Request.
   artifactKey: Guid(2b17d7305bef7fd4996c86c5655ef8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/PlayerMovement.cs using Guid(2b17d7305bef7fd4996c86c5655ef8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19912e5934bb9aa72b65992e846a9c8d') in 0.003242 seconds 
   Import took 0.006552 seconds .
+<<<<<<< HEAD
+>>>>>>> Feature-Game-Level
+=======
 >>>>>>> Feature-Game-Level
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 <<<<<<< HEAD
 Registered in 0.015429 seconds.
 Begin MonoManager ReloadAssembly
@@ -726,6 +773,8 @@ Domain Reload Profiling:
 	ReloadAssembly (858ms)
 		BeginReloadAssembly (91ms)
 =======
+=======
+>>>>>>> Feature-Game-Level
 Registered in 0.002910 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -737,11 +786,15 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (788ms)
 		BeginReloadAssembly (90ms)
+<<<<<<< HEAD
+>>>>>>> Feature-Game-Level
+=======
 >>>>>>> Feature-Game-Level
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 			CreateAndSetChildDomain (30ms)
 		EndReloadAssembly (717ms)
@@ -752,6 +805,8 @@ Domain Reload Profiling:
 			RebuildScriptCaches (38ms)
 			SetupLoadedEditorAssemblies (267ms)
 =======
+=======
+>>>>>>> Feature-Game-Level
 			CreateAndSetChildDomain (28ms)
 		EndReloadAssembly (648ms)
 			LoadAssemblies (72ms)
@@ -760,14 +815,22 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (35ms)
 			SetupLoadedEditorAssemblies (240ms)
+<<<<<<< HEAD
+>>>>>>> Feature-Game-Level
+=======
 >>>>>>> Feature-Game-Level
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 <<<<<<< HEAD
+<<<<<<< HEAD
 				BeforeProcessingInitializeOnLoad (67ms)
 				ProcessInitializeOnLoadAttributes (184ms)
+=======
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (160ms)
+>>>>>>> Feature-Game-Level
 =======
 				BeforeProcessingInitializeOnLoad (65ms)
 				ProcessInitializeOnLoadAttributes (160ms)
@@ -779,6 +842,7 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 <<<<<<< HEAD
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3417 Unused Serialized files (Serialized files now loaded: 0)
@@ -788,6 +852,8 @@ System memory in use after: 145.7 MB.
 Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4036.
 Total: 3.149100 ms (FindLiveObjects: 0.471100 ms CreateObjectMapping: 0.201400 ms MarkObjects: 2.452900 ms  DeleteObjects: 0.022800 ms)
 =======
+=======
+>>>>>>> Feature-Game-Level
 Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2227 Unused Serialized files (Serialized files now loaded: 0)
@@ -796,6 +862,9 @@ System memory in use after: 115.8 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2708.
 Total: 2.460400 ms (FindLiveObjects: 0.182100 ms CreateObjectMapping: 0.078600 ms MarkObjects: 2.179500 ms  DeleteObjects: 0.019600 ms)
+<<<<<<< HEAD
+>>>>>>> Feature-Game-Level
+=======
 >>>>>>> Feature-Game-Level
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -809,6 +878,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ========================================================================
 Received Import Request.
   Time since last request: 184.946506 seconds.
@@ -817,6 +887,8 @@ Received Import Request.
 Start importing Assets/Game Level.unity using Guid(fb00a5f082b63ff41a97218836d08c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5691f4d0ac93f504d3e391183f43f0') in 0.011852 seconds 
   Import took 0.016613 seconds .
 
+=======
+>>>>>>> Feature-Game-Level
 =======
 >>>>>>> Feature-Game-Level
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
