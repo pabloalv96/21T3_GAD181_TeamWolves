@@ -9,10 +9,17 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb;
     public Animator animator;
 
+    public bool canMove;
+
     Vector2 movement;
-  
+
     // Update is called once per frame
-    
+
+    private void Start()
+    {
+        canMove = true;
+    }
+
     void Update()
     {
         //Input
@@ -27,7 +34,11 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         //Movement
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+
+        if (canMove == true)
+        {
+            rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        }
     }
     
 }

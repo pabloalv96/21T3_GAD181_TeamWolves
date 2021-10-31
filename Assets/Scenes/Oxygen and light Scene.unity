@@ -1999,8 +1999,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000015259, y: -123}
-  m_SizeDelta: {x: 220.7341, y: 30}
+  m_AnchoredPosition: {x: 10.5298, y: -123}
+  m_SizeDelta: {x: 241.7937, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1756081581
 MonoBehaviour:
@@ -2035,7 +2035,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Press "E" To teleport
+  m_Text: Press "E" To Teleport
 --- !u!222 &1756081582
 CanvasRenderer:
   m_ObjectHideFlags: 0
