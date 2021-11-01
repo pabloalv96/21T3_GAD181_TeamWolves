@@ -53,3 +53,9 @@ TagManager:
   - name: Actor
     uniqueID: 2101541259
     locked: 0
+  - name: Planet Rocks
+    uniqueID: 1382306377
+    locked: 0
+  - name: Cave Ground
+    uniqueID: 3064546015
+    locked: 0
