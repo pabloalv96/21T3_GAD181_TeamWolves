@@ -54,14 +54,14 @@ TagManager:
   - name: Cave ground
     uniqueID: 394600783
     locked: 0
+  - name: Wall Exterior
+    uniqueID: 1207497303
+    locked: 0
   - name: Cave wall
     uniqueID: 1041767683
     locked: 0
   - name: Wall Interior
     uniqueID: 2660572535
-    locked: 0
-  - name: Wall Exterior
-    uniqueID: 1207497303
     locked: 0
   - name: Wall Rock
     uniqueID: 656548345
