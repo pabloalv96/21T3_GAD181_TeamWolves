@@ -523,7 +523,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 69c42e23e9b963747bc08230774d52b1, type: 2}
+  - {fileID: 2100000, guid: 2ffcce1744b8b404ca33e3b551c9e39f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1030,6 +1030,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   oxigenTime: 3
+  initialTimeValue: 60
   teleportText: {fileID: 1756081581}
   timeText: {fileID: 748579579}
   timeSlider: {fileID: 192638726}
@@ -1826,6 +1827,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   oxigenTime: 60
+  initialTimeValue: 60
   teleportText: {fileID: 0}
   timeText: {fileID: 1652325733}
   timeSlider: {fileID: 0}

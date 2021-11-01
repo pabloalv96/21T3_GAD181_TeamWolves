@@ -8,6 +8,7 @@ public class Timer : MonoBehaviour
     // Variables
     //Timer to start at 60 secs
     public float oxigenTime = 60;
+    public float initialTimeValue = 60;
 
     [SerializeField] Text teleportText;
     public Text timeText;
@@ -19,6 +20,7 @@ public class Timer : MonoBehaviour
     [SerializeField] public bool isAlive;
 
     public PlayerMovement movement;
+    //public Movement movement;
 
     [SerializeField] Transform player;
     [SerializeField] Transform respawnPoint;
@@ -45,7 +47,7 @@ public class Timer : MonoBehaviour
 
         if (isAlive && startTimer)
         {
-            //CountDown();
+            //CountDown
             oxigenTime -= Time.deltaTime;
 
             if (oxigenTime <= 0)
@@ -86,7 +88,7 @@ public class Timer : MonoBehaviour
 
         if(resetTimer)
         {
-            oxigenTime = 3;
+            oxigenTime = initialTimeValue;
 
             timeText.text = textTime;
             timeSlider.value = oxigenTime;
