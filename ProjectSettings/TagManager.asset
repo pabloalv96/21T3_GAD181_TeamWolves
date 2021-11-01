@@ -42,11 +42,20 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Surface
+    uniqueID: 1596064541
+    locked: 0
   - name: Ground
     uniqueID: 62139203
     locked: 0
   - name: Floor
     uniqueID: 4200559699
+    locked: 0
+  - name: Cave ground
+    uniqueID: 394600783
+    locked: 0
+  - name: Cave wall
+    uniqueID: 1041767683
     locked: 0
   - name: Wall Interior
     uniqueID: 2660572535
