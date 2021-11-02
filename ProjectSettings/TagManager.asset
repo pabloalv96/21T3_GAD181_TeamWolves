@@ -48,6 +48,9 @@ TagManager:
   - name: Ground
     uniqueID: 62139203
     locked: 0
+  - name: Trigger Floor
+    uniqueID: 2170699219
+    locked: 0
   - name: Floor
     uniqueID: 4200559699
     locked: 0
