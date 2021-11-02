@@ -534,13 +534,13 @@ Tilemap:
   m_AnimatedTiles: {}
   m_TileAssetArray:
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 801c02f6fb4366f4da2ae9599581bc67, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 4fdae9f39d6b88a43a539f3c348b1790, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: aa7b56ed78e4c0a40838c64446efad53, type: 2}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 0544d4b97524f2141805117bfde5f4bd, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: f6ef7f31fff626841a9dee1673cef610, type: 2}
   - m_RefCount: 1
@@ -795,7 +795,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
