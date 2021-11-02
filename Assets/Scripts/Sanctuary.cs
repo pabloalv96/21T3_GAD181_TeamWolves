@@ -18,13 +18,52 @@ public class Sanctuary : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    /*private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.tag == "Player")
         {
             Debug.Log("You are in sanctuary");
+            timer.startTimer = false;
+            timer.stopTimer = true;
+            timer.resetTimer = true;
+        } else
+        {
             timer.startTimer = true;
+            timer.stopTimer = false;
             timer.resetTimer = false;
+        }
+    }*/
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            timer.startTimer = false;
+            timer.stopTimer = true;
+            timer.resetTimer = true;
+        }
+        else
+        {
+            timer.startTimer = true;
+            timer.stopTimer = false;
+            timer.resetTimer = false;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            timer.startTimer = true;
+            timer.stopTimer = false;
+            timer.resetTimer = false;
+        }
+        else
+        {
+            
+            timer.startTimer = false;
+            timer.stopTimer = true;
+            timer.resetTimer = true;
         }
     }
 }
