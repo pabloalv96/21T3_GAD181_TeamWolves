@@ -1127,8 +1127,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df40b71f1b9707d46a00ecfd1e6548bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oxigenTime: 3
-  initialTimeValue: 60
+  oxigenTime: 5
+  initialTimeValue: 10
   teleportText: {fileID: 1756081581}
   timeText: {fileID: 748579579}
   timeSlider: {fileID: 192638726}
