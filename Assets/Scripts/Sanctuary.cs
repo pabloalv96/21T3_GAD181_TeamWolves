@@ -25,7 +25,7 @@ public class Sanctuary : MonoBehaviour
             Debug.Log("You are in sanctuary");
             timer.startTimer = false;
             timer.stopTimer = true;
-            //timer.resetTimer = true;
+            timer.resetTimer = true;
         } else
         {
             timer.startTimer = true;
@@ -38,9 +38,9 @@ public class Sanctuary : MonoBehaviour
    {
         if (other.gameObject.tag == "Player")
         {
-            //timer.startTimer = false;
+            timer.startTimer = false;
             timer.stopTimer = true;
-           // timer.resetTimer = true;
+           //timer.resetTimer = true;
         }
         else
         {
@@ -55,7 +55,7 @@ public class Sanctuary : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             timer.startTimer = true;
-            //timer.stopTimer = false;
+            timer.stopTimer = false;
             timer.resetTimer = true;
         }
         else
