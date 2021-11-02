@@ -19,8 +19,8 @@ public class Timer : MonoBehaviour
     [SerializeField] public bool resetTimer;
     [SerializeField] public bool isAlive;
 
-    //public PlayerMovement movement;
-    public Movement movement;
+    public PlayerMovement movement;
+    //public Movement movement;
 
     [SerializeField] Transform player;
     [SerializeField] Transform respawnPoint;

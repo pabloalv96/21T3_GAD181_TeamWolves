@@ -38,7 +38,6 @@ public class Sanctuary : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            Debug.Log("You are in sanctuary");
             timer.startTimer = false;
             timer.stopTimer = true;
             timer.resetTimer = true;
@@ -55,7 +54,6 @@ public class Sanctuary : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            Debug.Log("You are out of sanctuary");
             timer.startTimer = true;
             timer.stopTimer = false;
             timer.resetTimer = false;
