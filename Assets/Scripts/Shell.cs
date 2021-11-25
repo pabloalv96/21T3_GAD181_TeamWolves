@@ -7,8 +7,8 @@ public class Shell : MonoBehaviour
 
     private Timer myShell;
     [SerializeField] private GameObject objectToBeSpawned;
-    [SerializeField] int numberofItems;
-    [SerializeField] private Transform spawnedLocation;
+    //[SerializeField] int numberofItems;
+    //[SerializeField] private Transform spawnedLocation;
     public bool isSpawned = false;
 
 
@@ -18,17 +18,13 @@ public class Shell : MonoBehaviour
     {
         myShell = FindObjectOfType<Timer>();
         Debug.Log(myShell.oxigenTime);
-        // for (int i = 0; i >= numberofItems; i++)
-        {
+                {
 
         }
     }
     private void Update()
     {
-
-        //for (int i = 0; i < numberofItems; i++)
-       
-            if (myShell.oxigenTime < 55)
+            if (myShell.oxigenTime <= 0)
             {
                 if (!isSpawned)
                 {
