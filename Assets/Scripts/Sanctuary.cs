@@ -5,7 +5,8 @@ using UnityEngine;
 public class Sanctuary : MonoBehaviour
 {
     public Timer timer;
-
+    private Shell resetSpawner;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -15,17 +16,22 @@ public class Sanctuary : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+      
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        resetSpawner = FindObjectOfType<Shell>();
+        Debug.Log(resetSpawner.isSpawned);
+        resetSpawner.GetComponent<Shell>().isSpawned = false;
+        
+                        
         if (other.gameObject.tag == "Player")
         {
-            Debug.Log("You are in sanctuary");
+            Debug.Log("You are in sanctuary");            
             timer.startTimer = false;
             timer.stopTimer = true;
-            timer.resetTimer = true;
+            timer.resetTimer = true;            
         } else
         {
             timer.startTimer = true;

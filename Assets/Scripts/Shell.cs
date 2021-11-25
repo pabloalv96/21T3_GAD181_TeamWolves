@@ -9,7 +9,7 @@ public class Shell : MonoBehaviour
     [SerializeField] private GameObject objectToBeSpawned;
     [SerializeField] int numberofItems;
     [SerializeField] private Transform spawnedLocation;
-    private bool isSpawned = false;
+    public bool isSpawned = false;
 
 
 
