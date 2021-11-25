@@ -9,6 +9,7 @@ public class Shell : MonoBehaviour
     [SerializeField] private GameObject objectToBeSpawned;
     [SerializeField] int numberofItems;
     [SerializeField] private Transform spawnedLocation;
+    private bool isSpawned = false;
 
 
 
@@ -26,10 +27,14 @@ public class Shell : MonoBehaviour
     {
 
         //for (int i = 0; i < numberofItems; i++)
-            
-        if (myShell.oxigenTime <1)
-        {
-           Instantiate(objectToBeSpawned, spawnedLocation);
-        }
+       
+            if (myShell.oxigenTime < 55)
+            {
+                if (!isSpawned)
+                {
+                    Instantiate(objectToBeSpawned, transform.position, Quaternion.identity);
+                    isSpawned = true;
+                }
+            }
     }
 }
