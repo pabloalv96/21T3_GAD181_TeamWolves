@@ -15,11 +15,11 @@ C:/Users/USER/Documents/SAE GitHub/21T3_GAD181_TeamWolves
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50169
+55594
 Successfully changed project path to: C:/Users/USER/Documents/SAE GitHub/21T3_GAD181_TeamWolves
 C:/Users/USER/Documents/SAE GitHub/21T3_GAD181_TeamWolves
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 89.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 87.17 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -35,39 +35,39 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56500
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56120
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002088 seconds.
+Registered in 0.002074 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 84.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 98.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.565 seconds
+- Completed reload, in  1.581 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1566ms)
+	ReloadAssembly (1581ms)
 		BeginReloadAssembly (42ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (381ms)
+		EndReloadAssembly (395ms)
 			LoadAssemblies (40ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (116ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (185ms)
+			SetupLoadedEditorAssemblies (198ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (85ms)
+				RefreshPlugins (98ms)
 				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (61ms)
+				ProcessInitializeOnLoadAttributes (62ms)
 				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -75,36 +75,36 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.016720 seconds.
+Registered in 0.017091 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\USER\Documents\SAE GitHub\21T3_GAD181_TeamWolves\Assets\PlayMaker\Editor\PlayMakerEditor.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 86.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 91.24 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.093 seconds
+- Completed reload, in  1.102 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1093ms)
-		BeginReloadAssembly (112ms)
+	ReloadAssembly (1103ms)
+		BeginReloadAssembly (113ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (929ms)
+		EndReloadAssembly (938ms)
 			LoadAssemblies (87ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (285ms)
+			SetupTypeCache (282ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (397ms)
+			SetupLoadedEditorAssemblies (409ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (86ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (200ms)
+				RefreshPlugins (91ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (202ms)
 				ProcessInitializeOnLoadMethodAttributes (11ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
@@ -113,15 +113,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
 Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4661 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 206.9 MB.
-System memory in use after: 207.1 MB.
+System memory in use before: 207.3 MB.
+System memory in use after: 207.6 MB.
 
 Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 5254.
-Total: 3.204900 ms (FindLiveObjects: 0.392300 ms CreateObjectMapping: 0.251200 ms MarkObjects: 2.536100 ms  DeleteObjects: 0.024600 ms)
+Total: 3.106400 ms (FindLiveObjects: 0.389000 ms CreateObjectMapping: 0.249100 ms MarkObjects: 2.443000 ms  DeleteObjects: 0.024100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -137,767 +137,147 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
   path: Assets/Scenes/Operation Exodus Grey Box.unity
   artifactKey: Guid(79fd97c0bc68a49499b717a1f0ea0088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Operation Exodus Grey Box.unity using Guid(79fd97c0bc68a49499b717a1f0ea0088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c27709600f99ffd5d0a86b2f8ff452') in 0.023347 seconds 
-  Import took 0.029142 seconds .
+Start importing Assets/Scenes/Operation Exodus Grey Box.unity using Guid(79fd97c0bc68a49499b717a1f0ea0088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c27709600f99ffd5d0a86b2f8ff452') in 0.023764 seconds 
+  Import took 0.029573 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.345760 seconds.
+  Time since last request: 127.338003 seconds.
   path: Assets/Scenes/Main Menu.unity
-  artifactKey: Guid(47a1c9f4746646547b9c5235ac6cce25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main Menu.unity using Guid(47a1c9f4746646547b9c5235ac6cce25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c4e12d5354468fb79f4537584c846d') in 0.013824 seconds 
-  Import took 0.019806 seconds .
+  artifactKey: Guid(b3b4959161829244eaf072b423ae37c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Menu.unity using Guid(b3b4959161829244eaf072b423ae37c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30ebf3ff7986c63902d191a4edb7f96') in 0.013784 seconds 
+  Import took 0.020830 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.363443 seconds.
-  path: Assets/Main Scene Back Up.unity
-  artifactKey: Guid(2375ea43ea2fe4a4b9d1656660aca2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main Scene Back Up.unity using Guid(2375ea43ea2fe4a4b9d1656660aca2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e710f47f46329ee53f1db2c83f75036f') in 0.013836 seconds 
-  Import took 0.019893 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.283911 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(b135ad6349b96e243a3f295fe37d6b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(b135ad6349b96e243a3f295fe37d6b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a862aba2a846fdb6b27ddbedb6ef2ee9') in 0.013864 seconds 
-  Import took 0.020265 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.573003 seconds.
+  Time since last request: 31.489151 seconds.
   path: Assets/Prefabs/Shell.prefab
-  artifactKey: Guid(16b7a41a2f3d24b48ba4bbd312e17bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shell.prefab using Guid(16b7a41a2f3d24b48ba4bbd312e17bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46eec6a859cc8f1244c2c8d6548a1c20') in 0.176403 seconds 
-  Import took 0.182553 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 417.719419 seconds.
-  path: Assets/Prefabs/2D Tilemaps/Alien_base_walls_ ground_floor.prefab
-  artifactKey: Guid(16e24d52c02d57340ade4c3c7130e0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/2D Tilemaps/Alien_base_walls_ ground_floor.prefab using Guid(16e24d52c02d57340ade4c3c7130e0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e73470d4429e01616447eca5649128') in 0.052388 seconds 
-  Import took 0.059848 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.687109 seconds.
-  path: Assets/Prefabs/Objects/AI Computer.prefab
-  artifactKey: Guid(f6be12c1000fa944da6050417bcfedf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Objects/AI Computer.prefab using Guid(f6be12c1000fa944da6050417bcfedf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e885447bfaacfc788f21e0b1b9fb624') in 0.016525 seconds 
-  Import took 0.023069 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/Color Variants/CFX_DoubleFlameB Yellow Looped.prefab
-  artifactKey: Guid(74c6aa108c95c8246bccdc971235b9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/Color Variants/CFX_DoubleFlameB Yellow Looped.prefab using Guid(74c6aa108c95c8246bccdc971235b9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3b5eedba910067aea16ce3f7944526') in 0.024451 seconds 
-  Import took 0.030822 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Color Variants/CFX_FlameB_Green.prefab
-  artifactKey: Guid(f283eb52825ca7a46bb1271d2bc63a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Color Variants/CFX_FlameB_Green.prefab using Guid(f283eb52825ca7a46bb1271d2bc63a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce3104f0c642de6cb32fb75002c84af') in 0.021273 seconds 
-  Import took 0.029764 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/Firework Variants/CFX_Firework_Trails_Gravity_Orange.prefab
-  artifactKey: Guid(211245ec38eba0d4f8be125752d0aebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/Firework Variants/CFX_Firework_Trails_Gravity_Orange.prefab using Guid(211245ec38eba0d4f8be125752d0aebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b357701a8ab36a5e5a019e2e3c7a3d') in 0.020763 seconds 
-  Import took 0.027195 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/CFX_DoubleFlameC Looped.prefab
-  artifactKey: Guid(82811940a32abb449bc9ad8170086270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/CFX_DoubleFlameC Looped.prefab using Guid(82811940a32abb449bc9ad8170086270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a9aa6d1712587632458067e6038f2d') in 0.019894 seconds 
-  Import took 0.025771 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/RPGW_Caves/Sliced/Cave.prefab
-  artifactKey: Guid(088adb1267b707e4eb7282c60bc99d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves/Sliced/Cave.prefab using Guid(088adb1267b707e4eb7282c60bc99d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70dd90c3de460658a1221c731120ac27') in 0.428688 seconds 
-  Import took 0.447769 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Color Variants/CFX_DoubleFlameB Yellow.prefab
-  artifactKey: Guid(56cd4a025111c8a4595cf8d376d53944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Color Variants/CFX_DoubleFlameB Yellow.prefab using Guid(56cd4a025111c8a4595cf8d376d53944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e85c611412b9290ff3dab068b6f0c6') in 0.020110 seconds 
-  Import took 0.026467 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/Firework Variants/CFX_Firework_Trails_Gravity_Green.prefab
-  artifactKey: Guid(1a56e907fc6bb8a4aa6611263569f764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/Firework Variants/CFX_Firework_Trails_Gravity_Green.prefab using Guid(1a56e907fc6bb8a4aa6611263569f764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45a6addaa1895847eced536829641a8') in 0.020207 seconds 
-  Import took 0.026092 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/CFX_FlameC Looped.prefab
-  artifactKey: Guid(8896082ef161a7a46be1351db81f8619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/CFX_FlameC Looped.prefab using Guid(8896082ef161a7a46be1351db81f8619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f77193a0a53b6601081a713f46557a') in 0.019365 seconds 
-  Import took 0.025260 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/Color Variants/CFX_FlameB_Purple Looped.prefab
-  artifactKey: Guid(bcc837cb047638f4aa27515ab16d51e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/Color Variants/CFX_FlameB_Purple Looped.prefab using Guid(bcc837cb047638f4aa27515ab16d51e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9377424591642846ef6b21fa9d66a9') in 0.021144 seconds 
-  Import took 0.027205 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Enemy_Explosion.prefab
-  artifactKey: Guid(9e5bc0aa6b0c2eb45acdfe78c46e78b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Enemy_Explosion.prefab using Guid(9e5bc0aa6b0c2eb45acdfe78c46e78b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1852d44a6053dd221bc4fd36d1841010') in 0.021146 seconds 
-  Import took 0.027491 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/CFX_FlameA.prefab
-  artifactKey: Guid(4b43440b8ad9fba4f857b89462681d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/CFX_FlameA.prefab using Guid(4b43440b8ad9fba4f857b89462681d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dea02e232ac81cb879ded6e2aaccb92') in 0.019924 seconds 
-  Import took 0.025990 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Explosion NoSmoke.prefab
-  artifactKey: Guid(13af39fbb43556a498fa583d6d2772d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Explosion NoSmoke.prefab using Guid(13af39fbb43556a498fa583d6d2772d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1c549f02beb40df975057fc4c370ef') in 0.020986 seconds 
-  Import took 0.026871 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Electric/CFX_ElectricMesh.prefab
-  artifactKey: Guid(3429aa3725d724d4db711c2b4ffab77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Electric/CFX_ElectricMesh.prefab using Guid(3429aa3725d724d4db711c2b4ffab77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946597d1cbdbe81aecdacad6a420b35f') in 0.019824 seconds 
-  Import took 0.025911 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/Color Variants/CFX_FlameB_Gaz Looped.prefab
-  artifactKey: Guid(6084dd0af35b585499e26e7767953842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/Color Variants/CFX_FlameB_Gaz Looped.prefab using Guid(6084dd0af35b585499e26e7767953842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e6412862864629019c6f656919d137') in 0.020011 seconds 
-  Import took 0.025930 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Explosion.prefab
-  artifactKey: Guid(6a52bebdd4c27e443978195e22474c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Explosion.prefab using Guid(6a52bebdd4c27e443978195e22474c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd484d9e747ea61d70dd2a312f6c3d596') in 0.020505 seconds 
-  Import took 0.026575 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/Color Variants/CFX_FlameB_Green Looped.prefab
-  artifactKey: Guid(62f79fd3013846b4b9c922583a6a09e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/Color Variants/CFX_FlameB_Green Looped.prefab using Guid(62f79fd3013846b4b9c922583a6a09e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9727a57cc15bea1dfa3aa60401156b4') in 0.020636 seconds 
-  Import took 0.026684 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Firework.prefab
-  artifactKey: Guid(b735f83093504db4c9cd33fe719e199b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Firework.prefab using Guid(b735f83093504db4c9cd33fe719e199b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb5273105189d0f3aa8cab1cf84b66f') in 0.019432 seconds 
-  Import took 0.026270 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_CircularLightWall.prefab
-  artifactKey: Guid(6eb923d3a116c9f45a79e14c8b9653e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_CircularLightWall.prefab using Guid(6eb923d3a116c9f45a79e14c8b9653e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796bad24f0295038ee779e0d92e8b927') in 0.019738 seconds 
-  Import took 0.026094 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/Firework Variants/CFX_Firework_Trails_Gravity_Red.prefab
-  artifactKey: Guid(396dd076660c88e429b685d69ffbd088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/Firework Variants/CFX_Firework_Trails_Gravity_Red.prefab using Guid(396dd076660c88e429b685d69ffbd088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1629f7405cded33e8af1f14eeee391') in 0.019912 seconds 
-  Import took 0.025702 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/CFX_DoubleFlameB.prefab
-  artifactKey: Guid(0beef3d0bf4620b488cbc20024b8f2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/CFX_DoubleFlameB.prefab using Guid(0beef3d0bf4620b488cbc20024b8f2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa077de62917083a87514eb0ba7031b7') in 0.020064 seconds 
-  Import took 0.026081 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Color Variants/CFX_FlameB_Purple.prefab
-  artifactKey: Guid(2bafe9f92c151cc4695b42dba8f216c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Color Variants/CFX_FlameB_Purple.prefab using Guid(2bafe9f92c151cc4695b42dba8f216c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3cc7a71c2b0f8570adcafe62cae2051') in 0.019839 seconds 
-  Import took 0.026027 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/Prefabs/2D Tilemaps/Alien_base_floor.prefab
-  artifactKey: Guid(6f4839200c8deab40bf8e1aaa60962f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/2D Tilemaps/Alien_base_floor.prefab using Guid(6f4839200c8deab40bf8e1aaa60962f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea377455e772307dacf56f94a62ddd84') in 0.032240 seconds 
-  Import took 0.038673 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Explosion_B_Smoke.prefab
-  artifactKey: Guid(7c48a827ca6cb8443a88331c1c13269e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Explosion_B_Smoke.prefab using Guid(7c48a827ca6cb8443a88331c1c13269e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0086c597e046eadfcd2ee7d0c06541d2') in 0.022360 seconds 
-  Import took 0.028903 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/Color Variants/CFX_DoubleFlameA Blue Looped.prefab
-  artifactKey: Guid(2e21f3bab9c5b0643b3b2020d21081e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/Color Variants/CFX_DoubleFlameA Blue Looped.prefab using Guid(2e21f3bab9c5b0643b3b2020d21081e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5762f41ccca5791a7b998101493c44') in 0.020092 seconds 
-  Import took 0.025938 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/CFX_DoubleFlameB Looped.prefab
-  artifactKey: Guid(36cc046b2e55f8844a1f220628aa1946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/CFX_DoubleFlameB Looped.prefab using Guid(36cc046b2e55f8844a1f220628aa1946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b388f0dfe9ba04e4649a066409573580') in 0.019891 seconds 
-  Import took 0.025982 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/Firework Variants/CFX_Firework_Blue.prefab
-  artifactKey: Guid(d7a882e9a5df9d646b9b012187fd21f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/Firework Variants/CFX_Firework_Blue.prefab using Guid(d7a882e9a5df9d646b9b012187fd21f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb646af21f94388c8a5ebfcb456082e') in 0.019307 seconds 
-  Import took 0.025031 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/CFX_DoubleFlameA Looped.prefab
-  artifactKey: Guid(721cfbfd778225d47befa07d018aa3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/CFX_DoubleFlameA Looped.prefab using Guid(721cfbfd778225d47befa07d018aa3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deaf16b0073ac032cdcaa0d5ad00c0bf') in 0.020243 seconds 
-  Import took 0.026178 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Color Variants/CFX_DoubleFlameC White.prefab
-  artifactKey: Guid(3322e6994d107ae4bbcdff8e1852ddfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Color Variants/CFX_DoubleFlameC White.prefab using Guid(3322e6994d107ae4bbcdff8e1852ddfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de7728a4c93559bfd0f95fd13e72a7c') in 0.020086 seconds 
-  Import took 0.026135 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Electric/CFX_ElectricityBall_Alt.prefab
-  artifactKey: Guid(0ed37d7ac70abc94ab6d7946ddba13bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Electric/CFX_ElectricityBall_Alt.prefab using Guid(0ed37d7ac70abc94ab6d7946ddba13bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186ee240be4f7b349f9d183b6b204d3d') in 0.020168 seconds 
-  Import took 0.026134 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Enemy_Explosion_Big.prefab
-  artifactKey: Guid(44396b5c3431b8843a9a1fd63e030936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Enemy_Explosion_Big.prefab using Guid(44396b5c3431b8843a9a1fd63e030936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23758c43195fcc5abd8c46fed7592c03') in 0.020986 seconds 
-  Import took 0.026828 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Color Variants/CFX_FlameB_Gaz.prefab
-  artifactKey: Guid(3e701ffa1d5550e45a376ee65c20e72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Color Variants/CFX_FlameB_Gaz.prefab using Guid(3e701ffa1d5550e45a376ee65c20e72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988aba579e3af1ab674d6b69ed8a922f') in 0.019682 seconds 
-  Import took 0.025630 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Color Variants/CFX_FlameA Blue.prefab
-  artifactKey: Guid(ee02e16d70c237a418bc049ed00a4647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Color Variants/CFX_FlameA Blue.prefab using Guid(ee02e16d70c237a418bc049ed00a4647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7fd5c26d9046f50eea9cab65911d413') in 0.020027 seconds 
-  Import took 0.026127 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Electric/CFX_ElectricityBall.prefab
-  artifactKey: Guid(c988f4d94b11a104daaadb8fa2eff293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Electric/CFX_ElectricityBall.prefab using Guid(c988f4d94b11a104daaadb8fa2eff293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f969bdb20628eac0ea45919f128e3dc') in 0.019985 seconds 
-  Import took 0.025939 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Prefabs/Enemies/Alien_1.prefab
-  artifactKey: Guid(2ddcf47bded82be49bea0d9ce0352a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Alien_1.prefab using Guid(2ddcf47bded82be49bea0d9ce0352a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ce78d5dbdcd207c50e81609dcaaade') in 0.021531 seconds 
-  Import took 0.027350 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/Color Variants/CFX_DoubleFlameA Purple Looped.prefab
-  artifactKey: Guid(2119ccc3fad254c47a50047c96b2d821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/Color Variants/CFX_DoubleFlameA Purple Looped.prefab using Guid(2119ccc3fad254c47a50047c96b2d821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b77daeb4e03e3d62fdfc77a6691ec2') in 0.020457 seconds 
-  Import took 0.026534 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/CFX_DoubleFlameC.prefab
-  artifactKey: Guid(bf77e27d171efaa4294b742507cfaaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/CFX_DoubleFlameC.prefab using Guid(bf77e27d171efaa4294b742507cfaaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b3dbc3a2cefd8232ecdc247fcbef23') in 0.020334 seconds 
-  Import took 0.026500 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Color Variants/CFX_FlameC_Orange.prefab
-  artifactKey: Guid(39a63f7e01c52e444b8f19a5f4458173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Color Variants/CFX_FlameC_Orange.prefab using Guid(39a63f7e01c52e444b8f19a5f4458173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62ee087de8009120bece8349e8726ed') in 0.020184 seconds 
-  Import took 0.026287 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Color Variants/CFX_DoubleFlameA Purple.prefab
-  artifactKey: Guid(42adca41823c8ab408f4dae759b82a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Color Variants/CFX_DoubleFlameA Purple.prefab using Guid(42adca41823c8ab408f4dae759b82a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3747e029a0d806530b9730040d2c5bb1') in 0.020800 seconds 
-  Import took 0.026884 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Explosion+Text NoSmoke.prefab
-  artifactKey: Guid(e0fa5c9091677c84fb3aa516e32fb19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Explosion+Text NoSmoke.prefab using Guid(e0fa5c9091677c84fb3aa516e32fb19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dedd237b4db5bfd69ccf231a0ec5e4eb') in 0.020184 seconds 
-  Import took 0.026277 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Explosion+Text.prefab
-  artifactKey: Guid(241a0399d09e195479838aac3a03e52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Explosion+Text.prefab using Guid(241a0399d09e195479838aac3a03e52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38fb7ea333bac4d22f1b429c9a17532c') in 0.021131 seconds 
-  Import took 0.027176 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Explosion_B_Smoke+Text.prefab
-  artifactKey: Guid(3a7f07eb7220bdb4e841d0efbdd4ebf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Explosion_B_Smoke+Text.prefab using Guid(3a7f07eb7220bdb4e841d0efbdd4ebf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78fb96e9ab9210067edac9fe2f687ee7') in 0.021825 seconds 
-  Import took 0.028085 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/Color Variants/CFX_DoubleFlameC Black Looped.prefab
-  artifactKey: Guid(02e58e23e01d45b4bbd2986d8a2029fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/Color Variants/CFX_DoubleFlameC Black Looped.prefab using Guid(02e58e23e01d45b4bbd2986d8a2029fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7edcd3d5a6b91dd476d82bae1baf8265') in 0.020082 seconds 
-  Import took 0.026395 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/Firework Variants/CFX_Firework_Trails_Red.prefab
-  artifactKey: Guid(7f59547a4a501bb44a953488daec0037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/Firework Variants/CFX_Firework_Trails_Red.prefab using Guid(7f59547a4a501bb44a953488daec0037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08cf4c0beb99886fa23064637205ce69') in 0.021323 seconds 
-  Import took 0.027237 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/Prefabs/2D Tilemaps/Cave_ground.prefab
-  artifactKey: Guid(c83170525a2d6ba4f844a25534f3fbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/2D Tilemaps/Cave_ground.prefab using Guid(c83170525a2d6ba4f844a25534f3fbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c161b477398c7aa8ba6ad998d6f951') in 0.038902 seconds 
-  Import took 0.045094 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/Firework Variants/CFX_Firework_Trails_Orange.prefab
-  artifactKey: Guid(87f07710c94063a4d8ecc5b99165897a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/Firework Variants/CFX_Firework_Trails_Orange.prefab using Guid(87f07710c94063a4d8ecc5b99165897a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf57d2dd64066b566b76caa2979f8f4') in 0.019664 seconds 
-  Import took 0.025473 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Color Variants/CFX_FlameC_Blue.prefab
-  artifactKey: Guid(8a6d72995463d34499371562c5452f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Color Variants/CFX_FlameC_Blue.prefab using Guid(8a6d72995463d34499371562c5452f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7bb9bea081fc4a1a70baf5fc77e89fc') in 0.020403 seconds 
-  Import took 0.026297 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Color Variants/CFX_DoubleFlameB Green.prefab
-  artifactKey: Guid(9cec1e6018b65ed4599cdfeb890e3a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Color Variants/CFX_DoubleFlameB Green.prefab using Guid(9cec1e6018b65ed4599cdfeb890e3a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829880d7fd382da69f962f81a12dec64') in 0.020046 seconds 
-  Import took 0.026096 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/Firework Variants/CFX_Firework_Orange.prefab
-  artifactKey: Guid(a715a75df9dd6ea44afe54b1e7132aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/Firework Variants/CFX_Firework_Orange.prefab using Guid(a715a75df9dd6ea44afe54b1e7132aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23293fb05af8faad370a513811c7d247') in 0.020215 seconds 
-  Import took 0.026219 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/CFX_Fire_Breath_NoSmoke.prefab
-  artifactKey: Guid(29fe59328932af64aa9d7cf1a8300d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/CFX_Fire_Breath_NoSmoke.prefab using Guid(29fe59328932af64aa9d7cf1a8300d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4940e50306edd2d756a83840839a85') in 0.020893 seconds 
-  Import took 0.026974 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Prefabs/2D Tilemaps/Alien_base_level_1_floor.prefab
-  artifactKey: Guid(3885508ef0df8464c9b379c611bc5494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/2D Tilemaps/Alien_base_level_1_floor.prefab using Guid(3885508ef0df8464c9b379c611bc5494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9373ffeeb74806f9060b053e0ca6fa9c') in 0.027131 seconds 
-  Import took 0.033122 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Electric/CFX_ElectricGround_Alt.prefab
-  artifactKey: Guid(65b5889cdf311b84db64a6c94c3c52aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Electric/CFX_ElectricGround_Alt.prefab using Guid(65b5889cdf311b84db64a6c94c3c52aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda6527b6e65a4450ad131cc961cda71') in 0.020195 seconds 
-  Import took 0.026159 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/CFX_FlameA Looped.prefab
-  artifactKey: Guid(54eb7bc81ab2d414e907e3207e9e37b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/CFX_FlameA Looped.prefab using Guid(54eb7bc81ab2d414e907e3207e9e37b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c2f4563b98fd33713e3bf54475502f') in 0.020866 seconds 
-  Import took 0.026717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/Color Variants/CFX_FlameC_Orange Looped.prefab
-  artifactKey: Guid(71c086a6275fdf34dbf79a827eabaca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/Color Variants/CFX_FlameC_Orange Looped.prefab using Guid(71c086a6275fdf34dbf79a827eabaca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92794d7425a740c561d0e655bfa3d7ac') in 0.019921 seconds 
-  Import took 0.025832 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/Color Variants/CFX_FlameC_Blue Looped.prefab
-  artifactKey: Guid(5456e399591d2f147867df21b2f95e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/Color Variants/CFX_FlameC_Blue Looped.prefab using Guid(5456e399591d2f147867df21b2f95e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e920ad119988ec04f0a3f2fae7fe30') in 0.020215 seconds 
-  Import took 0.026220 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/CFX_Flamethrower.prefab
-  artifactKey: Guid(ca949f007b29fab4b9ef525bb74ee9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/CFX_Flamethrower.prefab using Guid(ca949f007b29fab4b9ef525bb74ee9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e59008a2287d90d0a2e094bac1f536') in 0.021754 seconds 
-  Import took 0.027859 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/CFX_FlameB Looped.prefab
-  artifactKey: Guid(5ad8e7b0676c8cf459eeddab1ed9d70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/CFX_FlameB Looped.prefab using Guid(5ad8e7b0676c8cf459eeddab1ed9d70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23ca0dce9e026236b7c51ba6eb1edf3') in 0.020326 seconds 
-  Import took 0.027195 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Color Variants/CFX_FlameA Green.prefab
-  artifactKey: Guid(6cb4971612a957f45a9e356b2b9aa8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Color Variants/CFX_FlameA Green.prefab using Guid(6cb4971612a957f45a9e356b2b9aa8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6f0b2197428c0013b35fa1f53b5b2a') in 0.021882 seconds 
-  Import took 0.028155 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Electric/CFX_ElectricityBolt.prefab
-  artifactKey: Guid(818862383d79b524080d17528d9d6f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Electric/CFX_ElectricityBolt.prefab using Guid(818862383d79b524080d17528d9d6f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9497af912a3e6787098eccbd1c4bd14') in 0.021032 seconds 
-  Import took 0.027055 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Enemy_Explosion (Colored).prefab
-  artifactKey: Guid(f92654c4030c65d4bbc932ba5987e4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Enemy_Explosion (Colored).prefab using Guid(f92654c4030c65d4bbc932ba5987e4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb89766058e77b305fde17370f0ab06') in 0.021418 seconds 
-  Import took 0.027795 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/Firework Variants/CFX_Firework_Green.prefab
-  artifactKey: Guid(c8bd0969c8e721042ab55fa5d301ece8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/Firework Variants/CFX_Firework_Green.prefab using Guid(c8bd0969c8e721042ab55fa5d301ece8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe12032ead135fc3c9986a348c5900ee') in 0.021310 seconds 
-  Import took 0.027590 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Firework_Trails_Gravity.prefab
-  artifactKey: Guid(8c422461a838f3d47ae93bb08fef161a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Firework_Trails_Gravity.prefab using Guid(8c422461a838f3d47ae93bb08fef161a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09da785e29c91689bc20811d3e524e75') in 0.020138 seconds 
-  Import took 0.025898 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Electric/CFX_ElectricityBolt+Text.prefab
-  artifactKey: Guid(0f5a43b7240313a4bba640c8246700a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Electric/CFX_ElectricityBolt+Text.prefab using Guid(0f5a43b7240313a4bba640c8246700a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43bebb776f6d222cc8933c76e6a59720') in 0.022464 seconds 
-  Import took 0.028658 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Enemy_Explosion_Big (Colored).prefab
-  artifactKey: Guid(a1f08e557ddcca14d96f4b3c73a51249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Enemy_Explosion_Big (Colored).prefab using Guid(a1f08e557ddcca14d96f4b3c73a51249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e0935bb7602e124ef88f71834426533') in 0.023649 seconds 
-  Import took 0.029606 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Electric/CFX_ElectricGround.prefab
-  artifactKey: Guid(ab5835dc7fa1a5d4f8a538bdcbea5af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Electric/CFX_ElectricGround.prefab using Guid(ab5835dc7fa1a5d4f8a538bdcbea5af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a3c1fb193fcb58e6a5601e41ee7dd4') in 0.020663 seconds 
-  Import took 0.026750 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/Color Variants/CFX_DoubleFlameB Green Looped.prefab
-  artifactKey: Guid(80d8f99558b958c4a9ac7b72c2e36dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/Color Variants/CFX_DoubleFlameB Green Looped.prefab using Guid(80d8f99558b958c4a9ac7b72c2e36dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ead844a53bd70593b362b98033e56f0') in 0.022002 seconds 
-  Import took 0.028567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Color Variants/CFX_DoubleFlameA Blue.prefab
-  artifactKey: Guid(a7d974b923c227241892c12abc99d18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Color Variants/CFX_DoubleFlameA Blue.prefab using Guid(a7d974b923c227241892c12abc99d18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bae5519a3d8b1fc8df300fa91c8dcb9') in 0.023457 seconds 
-  Import took 0.030093 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Color Variants/CFX_FlameC_Red.prefab
-  artifactKey: Guid(1149ceea22fbc7b4398491e5ba9e2fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Color Variants/CFX_FlameC_Red.prefab using Guid(1149ceea22fbc7b4398491e5ba9e2fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a28a86e7459ce2f3247d631ed9bc0c15') in 0.020576 seconds 
-  Import took 0.027190 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/Color Variants/CFX_FlameA Yellow Looped.prefab
-  artifactKey: Guid(e4003e1f576e87542b9125f61bb4650b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/Color Variants/CFX_FlameA Yellow Looped.prefab using Guid(e4003e1f576e87542b9125f61bb4650b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b692152748c1579912b8e35f9384b283') in 0.021450 seconds 
-  Import took 0.028299 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/Color Variants/CFX_FlameA Blue Looped.prefab
-  artifactKey: Guid(1fa2db6a536c1f745b6a0046715bf584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/Color Variants/CFX_FlameA Blue Looped.prefab using Guid(1fa2db6a536c1f745b6a0046715bf584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c83b0626e2d479f581e9bf9c054323') in 0.020709 seconds 
-  Import took 0.027071 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Explosion_B.prefab
-  artifactKey: Guid(b90ea2dab4cec7c489b69083b35df528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Explosion_B.prefab using Guid(b90ea2dab4cec7c489b69083b35df528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1374e2a7b32420332a29fc869fc24958') in 0.021440 seconds 
-  Import took 0.027446 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/Color Variants/CFX_FlameC_Red Looped.prefab
-  artifactKey: Guid(e0b83a66d0bbb544eb42799251ab32fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/Color Variants/CFX_FlameC_Red Looped.prefab using Guid(e0b83a66d0bbb544eb42799251ab32fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47457d037c8801dbee1a9a0b55fb9e84') in 0.020760 seconds 
-  Import took 0.026661 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/CFX_FlameB.prefab
-  artifactKey: Guid(8ef3afac115277d428709eaa8e12525c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/CFX_FlameB.prefab using Guid(8ef3afac115277d428709eaa8e12525c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0141da266fc628024096dc9f49c2b2f') in 0.020775 seconds 
-  Import took 0.026988 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/CFX_Fire_Breath.prefab
-  artifactKey: Guid(9b5fcb4af35d5434c9b01061a88cd52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/CFX_Fire_Breath.prefab using Guid(9b5fcb4af35d5434c9b01061a88cd52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187f6d539a260cbf93b8ef09e8f0849a') in 0.022636 seconds 
-  Import took 0.029665 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/Firework Variants/CFX_Firework_Trails_Gravity_Blue.prefab
-  artifactKey: Guid(bd14cdb522b8ce145b60c7d59cfc23ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/Firework Variants/CFX_Firework_Trails_Gravity_Blue.prefab using Guid(bd14cdb522b8ce145b60c7d59cfc23ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b90c06c69645c7a0b049210bf6e59758') in 0.020238 seconds 
-  Import took 0.026626 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/Color Variants/CFX_DoubleFlameC White Looped.prefab
-  artifactKey: Guid(b62ea92cf8db85748b0c551c2d899ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/Color Variants/CFX_DoubleFlameC White Looped.prefab using Guid(b62ea92cf8db85748b0c551c2d899ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e7bb90c9e0f31988ac228d0d45576bf') in 0.020330 seconds 
-  Import took 0.026507 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/Color Variants/CFX_FlameA Green Looped.prefab
-  artifactKey: Guid(9777fc8ae7b27934193289816a461fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Flames Looped/Color Variants/CFX_FlameA Green Looped.prefab using Guid(9777fc8ae7b27934193289816a461fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21728e48e302cd22f8d668d78e162153') in 0.020111 seconds 
-  Import took 0.025931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Color Variants/CFX_FlameA Yellow.prefab
-  artifactKey: Guid(e9b98f8fc71e85340ac0b49ef1037f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Color Variants/CFX_FlameA Yellow.prefab using Guid(e9b98f8fc71e85340ac0b49ef1037f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d42cb359ce966f7ef1f1edca166f909') in 0.020136 seconds 
-  Import took 0.026233 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/CFX_FlameC.prefab
-  artifactKey: Guid(167af7a16e7368c4fb5cb3712ef9c475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/CFX_FlameC.prefab using Guid(167af7a16e7368c4fb5cb3712ef9c475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d20be8a283fab32d161077b1a3e63f') in 0.021476 seconds 
-  Import took 0.027460 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Firework_Trails.prefab
-  artifactKey: Guid(2f42d55b6b2398b44a5467a4fd08c578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Firework_Trails.prefab using Guid(2f42d55b6b2398b44a5467a4fd08c578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7d118af372f19d62890fe7ab3cb2ea') in 0.020622 seconds 
-  Import took 0.027563 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Color Variants/CFX_DoubleFlameC Black.prefab
-  artifactKey: Guid(c1808f0fb4879e1478b77b02807d43ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/Color Variants/CFX_DoubleFlameC Black.prefab using Guid(c1808f0fb4879e1478b77b02807d43ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6bdc92bd6c373fc43d204a0d145f29') in 0.020562 seconds 
-  Import took 0.026933 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Prefabs/2D Tilemaps/Alien_base_interior_items.prefab
-  artifactKey: Guid(c0da7e4f360f3854e90bb37b521aefe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/2D Tilemaps/Alien_base_interior_items.prefab using Guid(c0da7e4f360f3854e90bb37b521aefe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3fe24cf4a516d8de6928343ba70e3f9') in 0.022510 seconds 
-  Import took 0.028298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/Firework Variants/CFX_Firework_Trails_Green.prefab
-  artifactKey: Guid(d6b389562a63fe040bb6d18addd04308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/Firework Variants/CFX_Firework_Trails_Green.prefab using Guid(d6b389562a63fe040bb6d18addd04308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0470f7c79686de794626758b9feaf84') in 0.020451 seconds 
-  Import took 0.026212 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Explosion_B+Text.prefab
-  artifactKey: Guid(e6e4c3d8f1640ee48b60fdd4211a4532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_Explosion_B+Text.prefab using Guid(e6e4c3d8f1640ee48b60fdd4211a4532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98004f91c6d298e8b6bb9cce2684c3e') in 0.021633 seconds 
-  Import took 0.027906 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Prefabs/UI/Canvas.prefab
-  artifactKey: Guid(e12d66cad66d771458361ab75232ff96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UI/Canvas.prefab using Guid(e12d66cad66d771458361ab75232ff96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ffeafbf6f40192eeb32614dc2bbfb2') in 0.035831 seconds 
-  Import took 0.041772 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/Firework Variants/CFX_Firework_Red.prefab
-  artifactKey: Guid(018ad44fba03bb54686a627ffc7b36d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/Firework Variants/CFX_Firework_Red.prefab using Guid(018ad44fba03bb54686a627ffc7b36d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85afd483d8bfe61cdee00522bf19174') in 0.020465 seconds 
-  Import took 0.026305 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/Firework Variants/CFX_Firework_Trails_Blue.prefab
-  artifactKey: Guid(f53e13f874336cd4db7a954858aa3f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/Firework Variants/CFX_Firework_Trails_Blue.prefab using Guid(f53e13f874336cd4db7a954858aa3f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d76413e0b13e9877e1a51735a44d69d') in 0.021247 seconds 
-  Import took 0.027682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/CFX_DoubleFlameA.prefab
-  artifactKey: Guid(2934290d150fdda4ca58319642a9d5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Fire/CFX_DoubleFlameA.prefab using Guid(2934290d150fdda4ca58319642a9d5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f104f540600d3d4f556a6e1dded630ca') in 0.020516 seconds 
-  Import took 0.026562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Prefabs/2D Tilemaps/Cave_walls.prefab
-  artifactKey: Guid(018018005573c3747befae4300427708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/2D Tilemaps/Cave_walls.prefab using Guid(018018005573c3747befae4300427708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e3023c0fe482545bc8161ede184054') in 0.031583 seconds 
-  Import took 0.037655 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_CircularLightWall+Text.prefab
-  artifactKey: Guid(de339de0999853c4db856dc535baa7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_CircularLightWall+Text.prefab using Guid(de339de0999853c4db856dc535baa7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010490621a607d4544954d841f7ccd2b') in 0.020853 seconds 
-  Import took 0.026885 seconds .
+  artifactKey: Guid(f3dd8419622f7fe42a0b7ec3654d0ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shell.prefab using Guid(f3dd8419622f7fe42a0b7ec3654d0ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50825d5e64f38aee3c1e8be190ce44af') in 0.172583 seconds 
+  Import took 0.178877 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017344 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\Documents\SAE GitHub\21T3_GAD181_TeamWolves\Assets\PlayMaker\Editor\PlayMakerEditor.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.977 seconds
+Domain Reload Profiling:
+	ReloadAssembly (978ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (821ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (280ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (291ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (192ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4520 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.9 MB.
+System memory in use after: 203.1 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 5302.
+Total: 3.275000 ms (FindLiveObjects: 0.422700 ms CreateObjectMapping: 0.267500 ms MarkObjects: 2.564400 ms  DeleteObjects: 0.019900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018187 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\Documents\SAE GitHub\21T3_GAD181_TeamWolves\Assets\PlayMaker\Editor\PlayMakerEditor.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.001 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1002ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (857ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (310ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (291ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4520 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.9 MB.
+System memory in use after: 203.2 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 5305.
+Total: 3.888500 ms (FindLiveObjects: 0.421500 ms CreateObjectMapping: 0.275000 ms MarkObjects: 3.167800 ms  DeleteObjects: 0.023400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 206.638353 seconds.
+  path: Assets/Main Scene Back Up.unity
+  artifactKey: Guid(d32e9f2c53f7edb4aa22fdeb22cc7d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Scene Back Up.unity using Guid(d32e9f2c53f7edb4aa22fdeb22cc7d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b93d22917adbe1b21592ad1a41ccf4') in 0.016827 seconds 
+  Import took 0.023374 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
