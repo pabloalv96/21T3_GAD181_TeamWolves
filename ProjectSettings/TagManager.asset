@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Inventory
+  - FxTemporaire
   layers:
   - Default
   - TransparentFX
@@ -11,10 +13,10 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Actor
+  - Ground
+  - Collision
+  - Post Processing Effects
   - 
   - 
   - 
@@ -40,4 +42,43 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Surface
+    uniqueID: 1596064541
+    locked: 0
+  - name: Ground
+    uniqueID: 62139203
+    locked: 0
+  - name: Titan_ground
+    uniqueID: 3257923629
+    locked: 0
+  - name: Ground_rock
+    uniqueID: 980656653
+    locked: 0
+  - name: Trigger_floor
+    uniqueID: 2170699219
+    locked: 0
+  - name: Floor
+    uniqueID: 4200559699
+    locked: 0
+  - name: Titan_floor
+    uniqueID: 2875538063
+    locked: 0
+  - name: Cave_ground
+    uniqueID: 394600783
+    locked: 0
+  - name: Wall_exterior
+    uniqueID: 1207497303
+    locked: 0
+  - name: Cave_wall
+    uniqueID: 1041767683
+    locked: 0
+  - name: Wall_interior
+    uniqueID: 2660572535
+    locked: 0
+  - name: Wall_rock
+    uniqueID: 656548345
+    locked: 0
+  - name: Actor
+    uniqueID: 96602239
     locked: 0
