@@ -7,8 +7,6 @@ public class Shell : MonoBehaviour
 
     private Timer myShell;
     [SerializeField] private GameObject objectToBeSpawned;
-    //[SerializeField] int numberofItems;
-    //[SerializeField] private Transform spawnedLocation;
     public bool isSpawned = false;
 
 
