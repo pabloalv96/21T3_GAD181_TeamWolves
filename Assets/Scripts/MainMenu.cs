@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene("Oxygen and light Scene");
+        SceneManager.LoadScene("Operation Exodus Grey Box");
     }
 
     public void QuitGame()
