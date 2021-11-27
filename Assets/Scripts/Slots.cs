@@ -6,14 +6,22 @@ public class Slots : MonoBehaviour
 {
     private Inventory inventory;
     public int i;
+    public Timer timer;
 
     private void Start()
     {
+        timer = FindObjectOfType<Timer>();
+
         inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
     }
 
     private void Update()
     {
+        if (timer.oxigenTime <= 0)
+        {
+            DropItem();                
+        }
+
         if (transform.childCount <= 0)
         {
             inventory.isFull[i] = false;
