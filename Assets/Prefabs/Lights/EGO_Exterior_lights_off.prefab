@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4804830846908511083}
   - component: {fileID: 4804830846908511085}
   - component: {fileID: 4804830846908511086}
+  - component: {fileID: 3783100060819207709}
   m_Layer: 0
   m_Name: EGO_Exterior_lights_off
   m_TagString: Untagged
@@ -248,7 +249,7 @@ MonoBehaviour:
     activeStateName: 
     mouseEvents: 0
     handleLevelLoaded: 0
-    handleTriggerEnter2D: 0
+    handleTriggerEnter2D: 1
     handleTriggerExit2D: 0
     handleTriggerStay2D: 0
     handleCollisionEnter2D: 0
@@ -341,3 +342,17 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.3663448}
   serializedVersion: 2
   m_Radius: 1.97123
+--- !u!114 &3783100060819207709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4804830846908511087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501658088, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 4804830846908511083}

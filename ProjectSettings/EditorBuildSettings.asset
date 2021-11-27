@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: b3b4959161829244eaf072b423ae37c7
+  - enabled: 1
     path: Assets/Scenes/Operation Exodus Grey Box.unity
     guid: 79fd97c0bc68a49499b717a1f0ea0088
-  - enabled: 1
-    path: Assets/Scenes/Oxygen and light Scene.unity
-    guid: 7136a11a13cb5824789d1e2bb4723c43
   m_configObjects: {}

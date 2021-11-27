@@ -183,6 +183,7 @@ GameObject:
   - component: {fileID: 5620412812795303778}
   - component: {fileID: 1732245922316212518}
   - component: {fileID: 454224154972864100}
+  - component: {fileID: 830871128530473231}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -701,7 +702,7 @@ MonoBehaviour:
     activeStateName: 
     mouseEvents: 0
     handleLevelLoaded: 0
-    handleTriggerEnter2D: 0
+    handleTriggerEnter2D: 1
     handleTriggerExit2D: 0
     handleTriggerStay2D: 0
     handleCollisionEnter2D: 0
@@ -752,7 +753,7 @@ MonoBehaviour:
   - {x: -1.3846154, y: 2.0769231, z: 0}
   m_ShapePathHash: 0
   m_Mesh: {fileID: 0}
-  m_InstanceId: 67648
+  m_InstanceId: 55564
 --- !u!114 &5620412812795303778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -804,6 +805,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &830871128530473231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5620412812795303704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501658088, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 5620412812795303708}
 --- !u!1 &5620412812941442915
 GameObject:
   m_ObjectHideFlags: 0
