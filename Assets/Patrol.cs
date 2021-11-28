@@ -10,6 +10,10 @@ public class Patrol : MonoBehaviour
 
     public Transform[] moveSpots;
     private int randomSpot;
+    
+    public Animator animator;
+
+   // Vector2 movement;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,5 +36,9 @@ public class Patrol : MonoBehaviour
             }
             else
                 waitTime -= Time.deltaTime;
+
+        animator.SetFloat("Horizontal", transform.position.x);
+        animator.SetFloat("Vertical", transform.position.y);
+        animator.SetFloat("Speed", transform.position.sqrMagnitude);
     }
 }
