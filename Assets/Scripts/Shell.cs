@@ -8,7 +8,8 @@ public class Shell : MonoBehaviour
     private Timer myShell;
     [SerializeField] private GameObject objectToBeSpawned;
     public bool isSpawned = false;
-
+    public AudioSource source;
+    public AudioClip clip;
 
 
     // Start is called before the first frame update
@@ -29,6 +30,10 @@ public class Shell : MonoBehaviour
                     Instantiate(objectToBeSpawned, transform.position, Quaternion.identity);
                     isSpawned = true;
                 }
+            }
+            if (myShell.oxigenTime <= 22 && myShell.oxigenTime >=1)
+            {
+            source.PlayOneShot(clip);
             }
     }
 }
