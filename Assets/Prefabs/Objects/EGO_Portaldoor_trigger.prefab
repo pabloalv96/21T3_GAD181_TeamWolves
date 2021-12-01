@@ -12,8 +12,6 @@ GameObject:
   - component: {fileID: 4494198416828169040}
   - component: {fileID: 4494198416828169046}
   - component: {fileID: 4494198416828169045}
-  - component: {fileID: 2105920781231169993}
-  - component: {fileID: 3159690685483217601}
   m_Layer: 0
   m_Name: EGO_Portaldoor_trigger
   m_TagString: Untagged
@@ -392,7 +390,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -403,8 +401,8 @@ MonoBehaviour:
     activeStateName: 
     mouseEvents: 0
     handleLevelLoaded: 0
-    handleTriggerEnter2D: 1
-    handleTriggerExit2D: 1
+    handleTriggerEnter2D: 0
+    handleTriggerExit2D: 0
     handleTriggerStay2D: 0
     handleCollisionEnter2D: 0
     handleCollisionExit2D: 0
@@ -428,7 +426,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 1
+  eventHandlerComponentsAdded: 0
 --- !u!210 &4494198416828169045
 SortingGroup:
   m_ObjectHideFlags: 0
@@ -440,34 +438,6 @@ SortingGroup:
   m_SortingLayerID: 96602239
   m_SortingLayer: 13
   m_SortingOrder: 0
---- !u!114 &2105920781231169993
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4494198416828169041}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -501658088, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TargetFSMs:
-  - {fileID: 4494198416828169046}
---- !u!114 &3159690685483217601
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4494198416828169041}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1879487007, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TargetFSMs:
-  - {fileID: 4494198416828169046}
 --- !u!1 &4494198418352282729
 GameObject:
   m_ObjectHideFlags: 0
