@@ -79,11 +79,11 @@ TagManager:
   - name: Titan_interiorwall
     uniqueID: 1323030933
     locked: 0
-  - name: Titan_objects
-    uniqueID: 2641141397
-    locked: 0
   - name: Wall_interior
     uniqueID: 2660572535
+    locked: 0
+  - name: Titan_objects
+    uniqueID: 2641141397
     locked: 0
   - name: Wall_rock
     uniqueID: 656548345
