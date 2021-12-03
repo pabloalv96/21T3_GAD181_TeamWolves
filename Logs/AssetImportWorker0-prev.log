@@ -15,11 +15,11 @@ C:/Users/USER/Documents/SAE GitHub/21T3_GAD181_TeamWolves
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59399
+59873
 Successfully changed project path to: C:/Users/USER/Documents/SAE GitHub/21T3_GAD181_TeamWolves
 C:/Users/USER/Documents/SAE GitHub/21T3_GAD181_TeamWolves
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 92.52 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 95.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -35,39 +35,39 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002088 seconds.
+Registered in 0.002075 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 88.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 88.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.598 seconds
+- Completed reload, in  1.544 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1598ms)
-		BeginReloadAssembly (44ms)
+	ReloadAssembly (1544ms)
+		BeginReloadAssembly (42ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (386ms)
-			LoadAssemblies (42ms)
+		EndReloadAssembly (381ms)
+			LoadAssemblies (40ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (118ms)
+			SetupTypeCache (115ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (188ms)
+			SetupLoadedEditorAssemblies (187ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (89ms)
-				BeforeProcessingInitializeOnLoad (12ms)
-				ProcessInitializeOnLoadAttributes (61ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (60ms)
 				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -75,37 +75,37 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011208 seconds.
+Registered in 0.011241 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\USER\Documents\SAE GitHub\21T3_GAD181_TeamWolves\Assets\PlayMaker\Editor\PlayMakerEditor.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 89.41 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 89.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.081 seconds
+- Completed reload, in  1.085 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1081ms)
+	ReloadAssembly (1086ms)
 		BeginReloadAssembly (113ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (917ms)
-			LoadAssemblies (83ms)
+		EndReloadAssembly (922ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (278ms)
+			SetupTypeCache (280ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (400ms)
+			SetupLoadedEditorAssemblies (403ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (90ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (201ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -114,14 +114,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4662 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 208.5 MB.
 System memory in use after: 208.8 MB.
 
 Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 5256.
-Total: 3.028200 ms (FindLiveObjects: 0.390900 ms CreateObjectMapping: 0.234000 ms MarkObjects: 2.379200 ms  DeleteObjects: 0.023400 ms)
+Total: 3.083900 ms (FindLiveObjects: 0.399700 ms CreateObjectMapping: 0.239700 ms MarkObjects: 2.420200 ms  DeleteObjects: 0.023500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,427 +135,75 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/RPGW_Caves
-  artifactKey: Guid(ee1d1edfbd345f64b9af5456e1565fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_Caves using Guid(ee1d1edfbd345f64b9af5456e1565fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746320736efa35420176fb1169c05431') in 0.017172 seconds 
-  Import took 0.022857 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.817406 seconds.
-  path: Assets/Post Processing
-  artifactKey: Guid(217286249f8c433478762c2bac069aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Post Processing using Guid(217286249f8c433478762c2bac069aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae1a103827b8f1b62a793a7a069dc0c') in 0.013943 seconds 
-  Import took 0.020115 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 84.180317 seconds.
-  path: Assets/RPGW_StrangeLand
-  artifactKey: Guid(73baaa1b5204373478976c2541049ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand using Guid(73baaa1b5204373478976c2541049ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a721ecff5f0d30c7f31f949a065f5b') in 0.014121 seconds 
-  Import took 0.020742 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.137422 seconds.
-  path: Assets/RPGW_StrangeLand/Decorative.png
-  artifactKey: Guid(9413a1adb0682d647812da81c3135e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Decorative.png using Guid(9413a1adb0682d647812da81c3135e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38681cd40628e4941b309898df036f52') in 0.122256 seconds 
-  Import took 0.128700 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/RPGW_StrangeLand/MainLev.png
-  artifactKey: Guid(3e294b5b04f9f3546b6409dea0f8f70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/MainLev.png using Guid(3e294b5b04f9f3546b6409dea0f8f70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86176b5f32ac2a24307353f16e351da2') in 0.044829 seconds 
-  Import took 0.050881 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002725 seconds.
-  path: Assets/RPGW_StrangeLand/MainLev.png
-  artifactKey: Guid(3e294b5b04f9f3546b6409dea0f8f70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/MainLev.png using Guid(3e294b5b04f9f3546b6409dea0f8f70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86176b5f32ac2a24307353f16e351da2') in 0.030192 seconds 
-  Import took 0.037382 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.741716 seconds.
-  path: Assets/RPGW_StrangeLand/Sliced
-  artifactKey: Guid(a161331608f6b6145a957bd44cf9cddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Sliced using Guid(a161331608f6b6145a957bd44cf9cddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b38a25160deb5294555e6d0962e3f171') in 0.013999 seconds 
-  Import took 0.020524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.057354 seconds.
-  path: Assets/RPGW_StrangeLand/Sliced/Decorative.png
-  artifactKey: Guid(090f31176a604e54abd2b39895cb40dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Sliced/Decorative.png using Guid(090f31176a604e54abd2b39895cb40dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac53c57808165cb160b713324574da71') in 3.407464 seconds 
-  Import took 3.419387 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/RPGW_StrangeLand/Sliced/MainLev.png
-  artifactKey: Guid(89e90e73f0dcbd84eb40c61bb749563e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Sliced/MainLev.png using Guid(89e90e73f0dcbd84eb40c61bb749563e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abbe38da990c0456e94341237456fbb8') in 3.855334 seconds 
-  Import took 3.867751 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.257896 seconds.
-  path: Assets/RPGW_StrangeLand/Scenes
-  artifactKey: Guid(1dad94783a364f24890f48ecc7ed5ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Scenes using Guid(1dad94783a364f24890f48ecc7ed5ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc802fada5b8be43b2c1a1b163e9a799') in 0.013908 seconds 
-  Import took 0.020320 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.955527 seconds.
-  path: Assets/RPGW_StrangeLand/Scenes/Demo.unity
-  artifactKey: Guid(15a32305ef8203049a0559e46b5738c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Scenes/Demo.unity using Guid(15a32305ef8203049a0559e46b5738c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f17071bdcea665581b27785c186c4452') in 0.013707 seconds 
-  Import took 0.020302 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.211453 seconds.
-  path: Assets/RPGW_StrangeLand/Animated
-  artifactKey: Guid(706b457257d0346498dfe8779de71b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Animated using Guid(706b457257d0346498dfe8779de71b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e0d1b1b22cdbc52139385258583de5') in 0.013175 seconds 
-  Import took 0.019851 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.049875 seconds.
-  path: Assets/RPGW_StrangeLand/Animated/Marsh_effect1A.png
-  artifactKey: Guid(31522137f968f4a4d8e5e91faf50fa35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Animated/Marsh_effect1A.png using Guid(31522137f968f4a4d8e5e91faf50fa35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6b6259ba815f1b2e1f2512d9ed49bf') in 0.053931 seconds 
-  Import took 0.060564 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/RPGW_StrangeLand/Animated/Tree4A.png
-  artifactKey: Guid(51721c23525571d4284e44a9ba896b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Animated/Tree4A.png using Guid(51721c23525571d4284e44a9ba896b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3881e2673522cf48af38dd9b8a566cb2') in 0.075128 seconds 
-  Import took 0.080966 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/RPGW_StrangeLand/Animated/Tree2A.png
-  artifactKey: Guid(9895e720f8ef2ac4da3626d7c01aa7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Animated/Tree2A.png using Guid(9895e720f8ef2ac4da3626d7c01aa7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb24ea0281432d1c5196f6761620814') in 0.062956 seconds 
-  Import took 0.068758 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/RPGW_StrangeLand/Animated/Tree2C.png
-  artifactKey: Guid(35481aefd342ead499bb3e51f64b52fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Animated/Tree2C.png using Guid(35481aefd342ead499bb3e51f64b52fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ddbba7815460e758623261cc3cc9820') in 0.061881 seconds 
-  Import took 0.067747 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/RPGW_StrangeLand/Animated/Mushroom2C.png
-  artifactKey: Guid(116bfa58572b0304bb576947c1a1c3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Animated/Mushroom2C.png using Guid(116bfa58572b0304bb576947c1a1c3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de4a59ccd90f9a8c12d9d29f0665085') in 0.062852 seconds 
-  Import took 0.068668 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/RPGW_StrangeLand/Animated/Marsh_effect2B.png
-  artifactKey: Guid(eb6322295e963a84ba7f9e9dcf32897a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Animated/Marsh_effect2B.png using Guid(eb6322295e963a84ba7f9e9dcf32897a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f4835f8a01e8f4212fdada37b7cc87') in 0.060302 seconds 
-  Import took 0.066203 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/RPGW_StrangeLand/Animated/Mushroom2A.png
-  artifactKey: Guid(b87b8ce4a23396341908cad63deed5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Animated/Mushroom2A.png using Guid(b87b8ce4a23396341908cad63deed5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c659664cebbf1be0877cc3d6d593b03') in 0.070341 seconds 
-  Import took 0.076247 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/RPGW_StrangeLand/Animated/Marsh_effect3B.png
-  artifactKey: Guid(111b01f2ce6d24243a23c4472e20e5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Animated/Marsh_effect3B.png using Guid(111b01f2ce6d24243a23c4472e20e5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7381ee27e250240f5d9dbffc5bf88ea7') in 0.059118 seconds 
-  Import took 0.066112 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/RPGW_StrangeLand/Animated/Mushroom1A.png
-  artifactKey: Guid(3e75eeec1f8c2af4aa03909cf7275fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Animated/Mushroom1A.png using Guid(3e75eeec1f8c2af4aa03909cf7275fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd100cb6222ccf061ec0377a98032e705') in 0.064720 seconds 
-  Import took 0.072251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/RPGW_StrangeLand/Animated/Marsh_effect4B.png
-  artifactKey: Guid(84c82695c93d0024db6abb263f35ca8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Animated/Marsh_effect4B.png using Guid(84c82695c93d0024db6abb263f35ca8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a29199e5c528212a060bebc2e69a90b') in 0.059470 seconds 
-  Import took 0.065434 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/RPGW_StrangeLand/Animated/Mushroom5C.png
-  artifactKey: Guid(4a1668c4f5b1e0a4188bf5fa4a2a898b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Animated/Mushroom5C.png using Guid(4a1668c4f5b1e0a4188bf5fa4a2a898b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf8cd8a6a7cf0b810b62be57e396f6e') in 0.065138 seconds 
-  Import took 0.070928 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/RPGW_StrangeLand/Animated/Mushroom4A.png
-  artifactKey: Guid(740d037a8c462974cb781897c383d76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Animated/Mushroom4A.png using Guid(740d037a8c462974cb781897c383d76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff31c51ed8def78442955828c10462a') in 0.066341 seconds 
-  Import took 0.072324 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/RPGW_StrangeLand/Animated/Mushroom3C.png
-  artifactKey: Guid(95cfe19811590634c8b6cde6436d1308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Animated/Mushroom3C.png using Guid(95cfe19811590634c8b6cde6436d1308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672ac72edfb557b4529c9b5b930a569a') in 0.065262 seconds 
-  Import took 0.071139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/RPGW_StrangeLand/Animated/Tree1A.png
-  artifactKey: Guid(ab9ed443028857446a4c770e8c891a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Animated/Tree1A.png using Guid(ab9ed443028857446a4c770e8c891a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ca52a84ae9eefce2751db4b426c33b') in 0.063466 seconds 
-  Import took 0.069312 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/RPGW_StrangeLand/Animated/Tree4B.png
-  artifactKey: Guid(8dfc769e989c4e540b6781fe83365281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Animated/Tree4B.png using Guid(8dfc769e989c4e540b6781fe83365281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2496c60997da9e54bb565f20f4b14968') in 0.063340 seconds 
-  Import took 0.069125 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/RPGW_StrangeLand/Animated/Mushroom4C.png
-  artifactKey: Guid(efd1f027384628f4e93b815c7a13b476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Animated/Mushroom4C.png using Guid(efd1f027384628f4e93b815c7a13b476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0fe68b03a978bd8cefca3761da1bad') in 0.068558 seconds 
-  Import took 0.074650 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/RPGW_StrangeLand/Animated/Tree1C.png
-  artifactKey: Guid(fc783df0e98d23f4689870ba98c4eba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Animated/Tree1C.png using Guid(fc783df0e98d23f4689870ba98c4eba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca3517b427159e101735453e138829d') in 0.064858 seconds 
-  Import took 0.070660 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/RPGW_StrangeLand/Animated/Mushroom1B.png
-  artifactKey: Guid(e6c6250bf42784a42a4cf14088ab3c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Animated/Mushroom1B.png using Guid(e6c6250bf42784a42a4cf14088ab3c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91c68d860badea48a2c3836a66430b0') in 0.062163 seconds 
-  Import took 0.067944 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/RPGW_StrangeLand/Animated/Tree2B.png
-  artifactKey: Guid(61efdd41a23379f46981cb0324c57924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Animated/Tree2B.png using Guid(61efdd41a23379f46981cb0324c57924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1314bb641e53b10df1712567d614f088') in 0.063645 seconds 
-  Import took 0.069537 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/RPGW_StrangeLand/Animated/Mushroom3B.png
-  artifactKey: Guid(f41f5920fb3dd764088de8f6039512d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Animated/Mushroom3B.png using Guid(f41f5920fb3dd764088de8f6039512d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c9eedba44e31f51a8eb7f3ab7b563b4') in 0.066507 seconds 
-  Import took 0.072669 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/RPGW_StrangeLand/Animated/Mushroom1C.png
-  artifactKey: Guid(6c1c740d078d28e48947e3762c642130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Animated/Mushroom1C.png using Guid(6c1c740d078d28e48947e3762c642130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080bec62359a8f1d7cdfeeed127fe8d8') in 0.062470 seconds 
-  Import took 0.068424 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/RPGW_StrangeLand/Animated/Mushroom4B.png
-  artifactKey: Guid(5001a1c30bea9c447925b8c2de6e1221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Animated/Mushroom4B.png using Guid(5001a1c30bea9c447925b8c2de6e1221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4520caccc17de6f92623bf2af9068d68') in 0.064480 seconds 
-  Import took 0.070473 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/RPGW_StrangeLand/Animated/Mushroom5A.png
-  artifactKey: Guid(b495119af496cc0448fd4d9503a2c907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Animated/Mushroom5A.png using Guid(b495119af496cc0448fd4d9503a2c907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1cf632f6c07f19f0b7e1ec2236ad1b') in 0.070244 seconds 
-  Import took 0.076106 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/RPGW_StrangeLand/Animated/Mushroom5B.png
-  artifactKey: Guid(6f9ccc5225372544eb11593bcfa77520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Animated/Mushroom5B.png using Guid(6f9ccc5225372544eb11593bcfa77520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8790c53d96e531c517b17056e27ecaad') in 0.064248 seconds 
-  Import took 0.070246 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/RPGW_StrangeLand/Animated/Tree3A.png
-  artifactKey: Guid(c053c0c940cb6444481946f1ff25220e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Animated/Tree3A.png using Guid(c053c0c940cb6444481946f1ff25220e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2502ef0df088f3004ebf0c9bb01be7f') in 0.071256 seconds 
-  Import took 0.077154 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/RPGW_StrangeLand/Animated/Marsh_effect3A.png
-  artifactKey: Guid(78f2b7bd9fc06754080b29f8648a8cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Animated/Marsh_effect3A.png using Guid(78f2b7bd9fc06754080b29f8648a8cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e40fa90b06069ef86f145bac8d1827b0') in 0.066306 seconds 
-  Import took 0.072656 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/RPGW_StrangeLand/Animated/Mushroom3A.png
-  artifactKey: Guid(db2fd31545a3d0d4cb82676af79599a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Animated/Mushroom3A.png using Guid(db2fd31545a3d0d4cb82676af79599a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f04828defb2116125be477b60003eb1') in 0.063719 seconds 
-  Import took 0.069572 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/RPGW_StrangeLand/Animated/Tree3B.png
-  artifactKey: Guid(6a9a6e28d69067a459e4c3a6bb233be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Animated/Tree3B.png using Guid(6a9a6e28d69067a459e4c3a6bb233be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00138869a5c078dfcc23f2a4a6a36646') in 0.063470 seconds 
-  Import took 0.069244 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/RPGW_StrangeLand/Animated/Marsh_effect1B.png
-  artifactKey: Guid(e02ff81cfb7d3c54c9b9ebfde025978e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Animated/Marsh_effect1B.png using Guid(e02ff81cfb7d3c54c9b9ebfde025978e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c251370bbe10059cf1d12a2f25cf6ee') in 0.061720 seconds 
-  Import took 0.067717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/RPGW_StrangeLand/Animated/Mushroom2B.png
-  artifactKey: Guid(962d277b9591e7e43b7da91ba4ec6dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Animated/Mushroom2B.png using Guid(962d277b9591e7e43b7da91ba4ec6dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f85c28fdbf32746d0641ac463114cab') in 0.068182 seconds 
-  Import took 0.074533 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/RPGW_StrangeLand/Animated/Marsh_effect4A.png
-  artifactKey: Guid(279b89c0240b77549b78dcd5bdde6df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Animated/Marsh_effect4A.png using Guid(279b89c0240b77549b78dcd5bdde6df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994ecb9ba81b5a6d2fc385f529962644') in 0.058653 seconds 
-  Import took 0.065271 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/RPGW_StrangeLand/Animated/Tree1B.png
-  artifactKey: Guid(8edff225570367a478a7514a01c28233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Animated/Tree1B.png using Guid(8edff225570367a478a7514a01c28233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b884152981e0af0e9879b4adde6df99') in 0.066892 seconds 
-  Import took 0.073008 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/RPGW_StrangeLand/Animated/Marsh_effect2A.png
-  artifactKey: Guid(2494ae9c9a7c96648863daaa332d744e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Animated/Marsh_effect2A.png using Guid(2494ae9c9a7c96648863daaa332d744e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a2bc9d6a51428d8e9e18fdc18499aa4') in 0.059519 seconds 
-  Import took 0.065386 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/RPGW_StrangeLand/Animated/Tree3C.png
-  artifactKey: Guid(bd5a5e6cd937e4c4baf6735c760806b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPGW_StrangeLand/Animated/Tree3C.png using Guid(bd5a5e6cd937e4c4baf6735c760806b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecdf2892226058a541f0fdfd5f814d35') in 0.058952 seconds 
-  Import took 0.064717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.769915 seconds.
-  path: Assets/Scenes/Operation Exodus Grey Box.unity
-  artifactKey: Guid(79fd97c0bc68a49499b717a1f0ea0088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Operation Exodus Grey Box.unity using Guid(79fd97c0bc68a49499b717a1f0ea0088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc9772feaa7b901e50df87d8da0c3c4') in 0.014084 seconds 
-  Import took 0.021613 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.217702 seconds.
-  path: Assets/Prefabs/2D Tilemaps/Ship_Interior_Items.prefab
-  artifactKey: Guid(f91d8474aa9aa0a4cb37c52bd8c8c66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/2D Tilemaps/Ship_Interior_Items.prefab using Guid(f91d8474aa9aa0a4cb37c52bd8c8c66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288dcb124f3b24b903d86aeed63137a7') in 0.170238 seconds 
-  Import took 0.178238 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 909.169472 seconds.
   path: Assets/Prefabs/2D Tilemaps/Alien_base_walls_ ground_floor.prefab
   artifactKey: Guid(93c30424574ba514cba182805ca35f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/2D Tilemaps/Alien_base_walls_ ground_floor.prefab using Guid(93c30424574ba514cba182805ca35f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0034dfd2c2522ee38dad6cc267170643') in 0.073425 seconds 
-  Import took 0.083288 seconds .
+Start importing Assets/Prefabs/2D Tilemaps/Alien_base_walls_ ground_floor.prefab using Guid(93c30424574ba514cba182805ca35f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84c8ebaedc2298d208821ea4e1fb1de') in 0.240670 seconds 
+  Import took 0.248648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 242.779602 seconds.
+  path: Assets/RPGW_StrangeLand/Animated/Tree4C.png
+  artifactKey: Guid(946eb9e55fb68304bb1d8b8e31aaf3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGW_StrangeLand/Animated/Tree4C.png using Guid(946eb9e55fb68304bb1d8b8e31aaf3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec4a52fa06cf2171b2637cc7355636d') in 0.096946 seconds 
+  Import took 0.104493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.055511 seconds.
+  path: Assets/RPGW_StrangeLand/Animated/Mushroom1A.anim
+  artifactKey: Guid(dba33c5d6ce84044499e597cd476eb39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGW_StrangeLand/Animated/Mushroom1A.anim using Guid(dba33c5d6ce84044499e597cd476eb39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f217a10bff9f44534d8c0c85cb71ac') in 0.004859 seconds 
+  Import took 0.011366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009954 seconds.
+  path: Assets/RPGW_StrangeLand/Animated/Mushroom1A.anim
+  artifactKey: Guid(dba33c5d6ce84044499e597cd476eb39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGW_StrangeLand/Animated/Mushroom1A.anim using Guid(dba33c5d6ce84044499e597cd476eb39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f217a10bff9f44534d8c0c85cb71ac') in 0.003609 seconds 
+  Import took 0.009813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.487559 seconds.
+  path: Assets/RPGW_StrangeLand/Animated/Mushroom1A_0.controller
+  artifactKey: Guid(b6ac23770a3595d4f8dd80fd775252fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGW_StrangeLand/Animated/Mushroom1A_0.controller using Guid(b6ac23770a3595d4f8dd80fd775252fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca6666cbd3518caf352d5f24198ea33') in 0.015866 seconds 
+  Import took 0.022213 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011465 seconds.
+Registered in 0.010461 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\USER\Documents\SAE GitHub\21T3_GAD181_TeamWolves\Assets\PlayMaker\Editor\PlayMakerEditor.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.956 seconds
+- Completed reload, in  0.977 seconds
 Domain Reload Profiling:
-	ReloadAssembly (956ms)
-		BeginReloadAssembly (107ms)
+	ReloadAssembly (977ms)
+		BeginReloadAssembly (110ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (798ms)
-			LoadAssemblies (79ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (803ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (273ms)
+			SetupTypeCache (277ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (282ms)
+			SetupLoadedEditorAssemblies (281ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
+				BeforeProcessingInitializeOnLoad (79ms)
 				ProcessInitializeOnLoadAttributes (187ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
 				AfterProcessingInitializeOnLoad (6ms)
@@ -563,14 +211,14 @@ Domain Reload Profiling:
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4521 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 205.5 MB.
-System memory in use after: 205.7 MB.
+System memory in use before: 204.1 MB.
+System memory in use after: 204.4 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 5332.
-Total: 3.166100 ms (FindLiveObjects: 0.406100 ms CreateObjectMapping: 0.250400 ms MarkObjects: 2.491700 ms  DeleteObjects: 0.017400 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 5308.
+Total: 3.105200 ms (FindLiveObjects: 0.378600 ms CreateObjectMapping: 0.225700 ms MarkObjects: 2.481600 ms  DeleteObjects: 0.018600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
