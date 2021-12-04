@@ -6,6 +6,7 @@ public class PickUps : MonoBehaviour
 {
     private Inventory inventory;
     public GameObject itemButton;
+    public GameObject UICrate;
 
 
     // Start is called before the first frame update
@@ -23,7 +24,7 @@ public class PickUps : MonoBehaviour
                 if (inventory.isFull[i] == false)
                 {
                     inventory.isFull[i] = true;
-                    Instantiate(itemButton, inventory.slots[i].transform, false);
+                    UICrate = Instantiate(itemButton, inventory.slots[i].transform, false);
                     Destroy(gameObject);
                     break;
                 }
