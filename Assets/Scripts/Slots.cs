@@ -17,7 +17,7 @@ public class Slots : MonoBehaviour
 
     private void Update()
     {
-        if (timer.oxigenTime <= 0)
+        if (timer.oxigenTime <= 0 && Input.GetKeyDown(KeyCode.E))
         {
             DropItem();                
         }
