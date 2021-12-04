@@ -10,21 +10,29 @@ public class Slots : MonoBehaviour
     public Timer timer;
     public Win win;
     public int winCounter=0;
+    public AlienRespawnPlayer collisionDrop;
 
     private void Start()
     {
         timer = FindObjectOfType<Timer>();
+        collisionDrop = FindObjectOfType<AlienRespawnPlayer>();
 
         inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
     }
 
     private void Update()
     {
+        if (collisionDrop.droponCollide == true)
+        {
+            Debug.Log("Alien collision");
+            DropItem();
+        }
+
         if (timer.oxigenTime <= 0 && Input.GetKeyDown(KeyCode.E))
         {
             DropItem();                
         }
-
+                
         if (Input.GetKeyDown(KeyCode.E) && win.textEnabled == true)
         {
             DestroyItem();
