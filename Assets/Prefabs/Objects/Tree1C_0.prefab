@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2479010097424874187}
   - component: {fileID: 2479010097424874186}
   - component: {fileID: 5722820008527372968}
+  - component: {fileID: 7665354962156625841}
   m_Layer: 0
   m_Name: Tree1C_0
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2479010097424874184}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -70.18, y: -16.583332, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6458146601553202836}
@@ -120,6 +121,32 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: -2.5868492}
   m_Size: {x: 2.05, y: 2.8263016}
   m_Direction: 0
+--- !u!114 &7665354962156625841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2479010097424874184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 000000001d03225f432bb4032df82fc20da2733ad33d628153745ffa8f3a65ab4f21851757f2f847bdf1785a031d183e95d9db4e771d959e959e6c9df92122277f08c205c1376c23
+  m_ShapePath:
+  - {x: -3, y: -4, z: 0}
+  - {x: 3, y: -4, z: 0}
+  - {x: 3, y: 4, z: 0}
+  - {x: -3, y: 4, z: 0}
+  m_ShapePathHash: 0
+  m_Mesh: {fileID: 0}
+  m_InstanceId: -10286
 --- !u!1 &3210946164324737338
 GameObject:
   m_ObjectHideFlags: 0
@@ -130,7 +157,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6458146601553202836}
   - component: {fileID: 6679460775590445042}
-  - component: {fileID: 6273534606843493877}
   m_Layer: 0
   m_Name: Point Light 2D
   m_TagString: Untagged
@@ -193,29 +219,3 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
---- !u!114 &6273534606843493877
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3210946164324737338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ShadowGroup: 0
-  m_HasRenderer: 0
-  m_UseRendererSilhouette: 1
-  m_CastsShadows: 1
-  m_SelfShadows: 1
-  m_ApplyToSortingLayers: 000000001d03225f432bb4032df82fc20da2733ad33d628153745ffa8f3a65ab4f21851757f2f84731a292a0031d183e95d9db4e771d959e959e6c9df92122277f08c205c1376c23
-  m_ShapePath:
-  - {x: -0.5, y: -0.5, z: 0}
-  - {x: 0.5, y: -0.5, z: 0}
-  - {x: 0.5, y: 0.5, z: 0}
-  - {x: -0.5, y: 0.5, z: 0}
-  m_ShapePathHash: 0
-  m_Mesh: {fileID: 0}
-  m_InstanceId: -20758
