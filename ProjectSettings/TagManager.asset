@@ -70,8 +70,8 @@ TagManager:
   - name: Wall_exterior
     uniqueID: 1207497303
     locked: 0
-  - name: Alien_exteriorwall
-    uniqueID: 2693964337
+  - name: Alien_base_walls
+    uniqueID: 1517875645
     locked: 0
   - name: Cave_wall
     uniqueID: 1041767683

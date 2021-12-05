@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4317002237661228266}
   - component: {fileID: 5181858959281280014}
   - component: {fileID: 2914690313844375691}
+  - component: {fileID: 1053336810194219625}
   m_Layer: 0
   m_Name: Alien_base_walls_ ground_floor
   m_TagString: Untagged
@@ -6935,9 +6936,9 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -94407597
-  m_SortingLayer: 6
-  m_SortingOrder: 2
+  m_SortingLayerID: 1517875645
+  m_SortingLayer: 10
+  m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -7343,6 +7344,32 @@ CompositeCollider2D:
       - {x: -53.99997, y: -18}
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
+--- !u!114 &1053336810194219625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4317002237661228264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_HasRenderer: 0
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 000000001d03225f432bb4032df82fc20da2733ad33d628153745ffa8f3a65ab4f21851757f2f847bdf1785a031d183e95d9db4e771d959e959e6c9df92122277f08c205c1376c23
+  m_ShapePath:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  m_ShapePathHash: 0
+  m_Mesh: {fileID: 0}
+  m_InstanceId: -51874
 --- !u!1 &5838581702423522294
 GameObject:
   m_ObjectHideFlags: 0
@@ -7422,6 +7449,6 @@ SpriteRenderer:
   m_Size: {x: 5.12, y: 1.72}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
