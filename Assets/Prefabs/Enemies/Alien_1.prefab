@@ -79,7 +79,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 656548345
-  m_SortingLayer: 12
+  m_SortingLayer: 15
   m_SortingOrder: 0
   m_Sprite: {fileID: 1791560979155910293, guid: b7afc12e263fd724b86d5a1bd96e59f1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -155,6 +155,7 @@ MonoBehaviour:
   timer: {fileID: 0}
   slot: {fileID: 0}
   inventory: {fileID: 0}
+  droponCollide: 0
 --- !u!95 &2865173228465764561
 Animator:
   serializedVersion: 3
@@ -424,7 +425,7 @@ MonoBehaviour:
     activeStateName: 
     mouseEvents: 0
     handleLevelLoaded: 0
-    handleTriggerEnter2D: 1
+    handleTriggerEnter2D: 0
     handleTriggerExit2D: 0
     handleTriggerStay2D: 0
     handleCollisionEnter2D: 0
