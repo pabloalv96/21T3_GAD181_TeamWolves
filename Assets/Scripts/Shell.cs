@@ -31,9 +31,9 @@ public class Shell : MonoBehaviour
                     isSpawned = true;
                 }
             }
-            if (myShell.oxigenTime <= 22 && myShell.oxigenTime >=1)
-            {
-            source.PlayOneShot(clip);
-            }
+           // if (myShell.oxigenTime <= 22 && myShell.oxigenTime >=1)
+           // {
+           // source.PlayOneShot(clip);
+            //}
     }
 }
