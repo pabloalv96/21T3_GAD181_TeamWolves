@@ -34,7 +34,7 @@ public class Sanctuary : MonoBehaviour
             timer.resetTimer = true;            
         } else
         {
-            timer.startTimer = true;
+            //timer.startTimer = true;
             timer.stopTimer = false;
             timer.resetTimer = false;
         }
@@ -50,7 +50,7 @@ public class Sanctuary : MonoBehaviour
         }
         else
         {
-            timer.startTimer = true;
+            //timer.startTimer = true;
             timer.stopTimer = false;
             timer.resetTimer = false;
         }

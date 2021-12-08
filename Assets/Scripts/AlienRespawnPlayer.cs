@@ -10,21 +10,23 @@ public class AlienRespawnPlayer : MonoBehaviour
     public Slots slot;
     public Inventory inventory;
     public bool droponCollide = false;
+      
 
-        // Start is called before the first frame update
+    // Start is called before the first frame update
     void Update()
     {
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        player.transform.position = respawnPoint.transform.position;
+        //player.transform.position = respawnPoint.transform.position;
         
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Respawn"))
         {
+            player.transform.position = respawnPoint.transform.position;
             Debug.Log("has collision occured");
             droponCollide = true;
         }
+
     }
- 
 }

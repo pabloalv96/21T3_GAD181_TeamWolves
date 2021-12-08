@@ -11,21 +11,23 @@ public class Slots : MonoBehaviour
     public Win win;
     public int winCounter=0;
     public AlienRespawnPlayer collisionDrop;
+   // public bool test = false;
 
     private void Start()
     {
         timer = FindObjectOfType<Timer>();
         collisionDrop = FindObjectOfType<AlienRespawnPlayer>();
-
+        //collisionDrop = GameObject.FindGameObjectWithTag("Respawn").GetComponent<AlienRespawnPlayer>();
         inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
     }
 
     private void Update()
     {
-        if (collisionDrop.droponCollide == true)
+       if (collisionDrop.droponCollide)
         {
-            Debug.Log("Alien collision");
-            DropItem();
+           Debug.Log("Alien collision");
+           DropItem();
+           collisionDrop.droponCollide = false;
         }
 
         if (timer.oxigenTime <= 0 && Input.GetKeyDown(KeyCode.E))
@@ -72,7 +74,7 @@ public class Slots : MonoBehaviour
 
             if (winCounter >= 2)
             {
-                SceneManager.LoadScene("Main Menu");
+                SceneManager.LoadScene("End Screen");
             }
         }
     }

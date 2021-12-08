@@ -7,7 +7,7 @@ public class EndScreen : MonoBehaviour
 {
     public void MainMenu()
     {
-        SceneManager.LoadScene("Main Menu 1");
+        SceneManager.LoadScene("Main Menu");
     }
 
 
