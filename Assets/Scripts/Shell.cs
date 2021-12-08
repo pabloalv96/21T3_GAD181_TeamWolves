@@ -7,9 +7,11 @@ public class Shell : MonoBehaviour
 
     private Timer myShell;
     [SerializeField] private GameObject objectToBeSpawned;
+    //[SerializeField] private GameObject crateToBeSpawned;
     public bool isSpawned = false;
     public AudioSource source;
     public AudioClip clip;
+    //public AlienRespawnPlayer crateSpawn;
 
 
     // Start is called before the first frame update
@@ -17,9 +19,7 @@ public class Shell : MonoBehaviour
     {
         myShell = FindObjectOfType<Timer>();
         Debug.Log(myShell.oxigenTime);
-                {
-
-        }
+        
     }
     private void Update()
     {
@@ -31,9 +31,12 @@ public class Shell : MonoBehaviour
                     isSpawned = true;
                 }
             }
-           // if (myShell.oxigenTime <= 22 && myShell.oxigenTime >=1)
-           // {
-           // source.PlayOneShot(clip);
-            //}
+       /* if (crateSpawn.droponCollide == true)
+        {
+           Instantiate(crateToBeSpawned, transform.position, Quaternion.identity);
+            crateSpawn.droponCollide = false;
+            Debug.Log(crateSpawn.droponCollide);
+            Debug.Log("Crate Spawned");
+        }*/
     }
 }

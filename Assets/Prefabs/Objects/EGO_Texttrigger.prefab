@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 6825791557495123492}
   - component: {fileID: 6825791557495123499}
   - component: {fileID: 6825791557495123498}
-  - component: {fileID: 4405311627980473597}
-  - component: {fileID: 7307575084820332670}
+  - component: {fileID: 3262056160481734625}
+  - component: {fileID: 2595283555443195624}
   m_Layer: 0
   m_Name: EGO_Texttrigger
   m_TagString: Untagged
@@ -405,7 +405,7 @@ SortingGroup:
   m_SortingLayerID: 96602239
   m_SortingLayer: 16
   m_SortingOrder: 0
---- !u!114 &4405311627980473597
+--- !u!114 &3262056160481734625
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -419,7 +419,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TargetFSMs:
   - {fileID: 6825791557495123499}
---- !u!114 &7307575084820332670
+--- !u!114 &2595283555443195624
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

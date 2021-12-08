@@ -12,11 +12,10 @@ GameObject:
   - component: {fileID: 2865173228465764562}
   - component: {fileID: 2865173228465764565}
   - component: {fileID: 3055529587132754787}
-  - component: {fileID: 2865173228465764564}
   - component: {fileID: 2865173228465764561}
   - component: {fileID: 4916980972969035957}
   - component: {fileID: 6666678125676897676}
-  - component: {fileID: 5166642151331761343}
+  - component: {fileID: 4112591309620316576}
   m_Layer: 7
   m_Name: Alien_1
   m_TagString: Respawn
@@ -138,24 +137,6 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   animator: {fileID: 2865173228465764561}
---- !u!114 &2865173228465764564
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2865173228465764567}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 961ab865cbe1e4b4ca3135af80eca4ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  respawnPoint: {fileID: 0}
-  timer: {fileID: 0}
-  slot: {fileID: 0}
-  inventory: {fileID: 0}
-  droponCollide: 0
 --- !u!95 &2865173228465764561
 Animator:
   serializedVersion: 3
@@ -547,7 +528,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &5166642151331761343
+--- !u!114 &4112591309620316576
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

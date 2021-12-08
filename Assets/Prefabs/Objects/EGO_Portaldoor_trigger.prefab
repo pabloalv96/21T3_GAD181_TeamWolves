@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 4494198416828169040}
   - component: {fileID: 4494198416828169046}
   - component: {fileID: 4494198416828169045}
-  - component: {fileID: 621942844655078251}
-  - component: {fileID: 6643286901391506358}
+  - component: {fileID: 6241358017678795986}
+  - component: {fileID: 8629417584208775481}
   m_Layer: 0
   m_Name: EGO_Portaldoor_trigger
   m_TagString: Untagged
@@ -440,7 +440,7 @@ SortingGroup:
   m_SortingLayerID: 96602239
   m_SortingLayer: 16
   m_SortingOrder: 0
---- !u!114 &621942844655078251
+--- !u!114 &6241358017678795986
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -454,7 +454,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TargetFSMs:
   - {fileID: 4494198416828169046}
---- !u!114 &6643286901391506358
+--- !u!114 &8629417584208775481
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

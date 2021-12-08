@@ -10,6 +10,11 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("Operation Exodus Grey Box");
     }
 
+    public void Instructions()
+    {
+        SceneManager.LoadScene("CargoHold");
+    }
+
     public void QuitGame()
     {
         Application.Quit(); 
