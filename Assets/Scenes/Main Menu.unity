@@ -513,6 +513,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: QuitGame
       objectReference: {fileID: 0}
+    - target: {fileID: 8039306182950027952, guid: beb6cc3305415884bb54f99128799349, type: 3}
+      propertyPath: m_Text
+      value: TUTORIAL
+      objectReference: {fileID: 0}
     - target: {fileID: 8039306182950027953, guid: beb6cc3305415884bb54f99128799349, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -541,6 +545,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 8039306182950027959, guid: beb6cc3305415884bb54f99128799349, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 5.4
+      objectReference: {fileID: 0}
     - target: {fileID: 8039306183245598537, guid: beb6cc3305415884bb54f99128799349, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -549,6 +557,22 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: c18290efc045fb44a9b5cca65396fe35, type: 3}
+    - target: {fileID: 8039306184396496066, guid: beb6cc3305415884bb54f99128799349, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8039306184396496066, guid: beb6cc3305415884bb54f99128799349, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8039306184396496066, guid: beb6cc3305415884bb54f99128799349, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 121.01999
+      objectReference: {fileID: 0}
+    - target: {fileID: 8039306184396496066, guid: beb6cc3305415884bb54f99128799349, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -222.207
+      objectReference: {fileID: 0}
     - target: {fileID: 8039306184396496124, guid: beb6cc3305415884bb54f99128799349, type: 3}
       propertyPath: m_FontData.m_Font
       value: 
