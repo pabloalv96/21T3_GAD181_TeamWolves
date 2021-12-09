@@ -111,6 +111,7 @@ GameObject:
   - component: {fileID: 5293763235138642767}
   - component: {fileID: 5293763235138642766}
   - component: {fileID: 5121087556259431121}
+  - component: {fileID: 551634814010966952}
   m_Layer: 0
   m_Name: Tree4A_0
   m_TagString: Untagged
@@ -219,3 +220,29 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: -2.4230716}
   m_Size: {x: 1.23, y: 2.1538568}
   m_Direction: 0
+--- !u!114 &551634814010966952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5293763235138642765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_HasRenderer: 0
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 000000001d03225f432bb4032df82fc20da2733ad33d628153745ffa8f3a65ab4f21851757f2f847bdf1785a031d183e95d9db4e771d959e959e6c9df92122277f08c205c1376c23
+  m_ShapePath:
+  - {x: -2.5, y: -3.5, z: 0}
+  - {x: 2.5, y: -3.5, z: 0}
+  - {x: 2.5, y: 3.5, z: 0}
+  - {x: -2.5, y: 3.5, z: 0}
+  m_ShapePathHash: 0
+  m_Mesh: {fileID: 0}
+  m_InstanceId: -49472
